@@ -106,19 +106,14 @@
     //URL的操作
     $.extend({
         xGetQueryStringArgs: function () {
-            //get query string without the initial ?
             var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
-                //object to hold data
                 args = {},
-                //get individual items
                 items = qs.length ? qs.split("&") : [],
                 item = null,
                 name = null,
                 value = null,
-                //used in for loop
                 i = 0,
                 len = items.length;
-            //assign each item onto the args object
             for (i = 0; i < len; i++) {
                 item = items[i].split("=");
                 name = decodeURIComponent(item[0]);
@@ -128,13 +123,27 @@
                 }
             }
             return args;
+        },
+        xSetQueryString: function (url, args) {
+            var key, name, value;
+            if (typeof args !== "object") {
+                return false;
+            }
+            url += (url.indexOf("?") == -1 ? "?" : "&");
+            for (key in args) {
+                name = encodeURIComponent(key);
+                value = encodeURIComponent(args[key]);
+                url += name + "=" + value + "&";
+            }
+            url = url.substring(0, url.length - 1);
+            return url;
         }
     });
     //表单验证模块
 
     $.extend({
         xVerify: (function () {
-            var REMAL=/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+            var REMAL = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
             var arithmetic = {
                 isNull: function (value) {
                     return value.length == 0;
