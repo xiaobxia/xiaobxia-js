@@ -143,13 +143,58 @@
 
     $.extend({
         xVerify: (function () {
-            var REMAL = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+            var EMAIL = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/,
+                ONLY_LETTER_OR_NUMBER = /^[a-z0-9]+$/i,
+                HAS_LETTER_OR_NUMBER = /[a-z0-9]+/i,
+                ONLY_LETTER = /^[a-zA-Z]+$/i,
+                HAS_LETTER = /[a-zA-Z]+/i,
+                ONLY_NUMBER = /^[0-9]+$/,
+                HAS_NUMBER = /[0-9]+/,
+                ONLY_CHINSES = /^[\u2E80-\u9FFF]+$/,
+                HAS_CHINSES = /[\u2E80-\u9FFF]+/,
+                ONLY_LETTER_AND_NUMBER = /^[a-z]+[0-9]+$/i,
+                HAS_SPACE=/\s+/,
+                HAS_EXCEPT_C_N_L=/[^\u2E80-\u9FFFa-zA-Z0-9]+/;
+
             var arithmetic = {
                 isNull: function (value) {
                     return value.length == 0;
                 },
-                isEail: function (value) {
-                    return REMAL.test(value);
+                email: function (value) {
+                    return EMAIL.test(value);
+                },
+                onlyLetOrNum: function (value) {
+                    return ONLY_LETTER_OR_NUMBER.test(value);
+                },
+                hasLetOrNum:function (value) {
+                    return HAS_LETTER_OR_NUMBER.test(value);
+                },
+                onlyLetAndNum: function (value) {
+                    return ONLY_LETTER_AND_NUMBER.test(value);
+                },
+                onlyCn: function (value) {
+                    return ONLY_CHINSES.test(value);
+                },
+                hasCn: function (value) {
+                    return HAS_CHINSES.test(value);
+                },
+                onlyNum: function (value) {
+                    return ONLY_NUMBER.test(value);
+                },
+                hasNum: function (value) {
+                    return HAS_NUMBER.test(value);
+                },
+                onlyLet: function (value) {
+                    return ONLY_LETTER.test(value);
+                },
+                hasLet:function (value) {
+                    return HAS_LETTER.test(value);
+                },
+                hasSpace:function (value) {
+                    return HAS_SPACE.test(value);
+                },
+                hasExCLN:function (value) {
+                    return HAS_EXCEPT_C_N_L.test(value);
                 }
             };
             return function (type, value) {
