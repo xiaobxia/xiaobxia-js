@@ -49,6 +49,21 @@
         //清理定时器
         xClearTimer: function (object) {
             clearTimeout(object.timer);
+        },
+        xThrottle: function () {
+            var isClear = arguments[0], fn;
+            if (typeof  isClear === "boolean") {
+                fn = arguments[1];
+                fn._throttleID && clearTimeout(fn._throttleID);
+            } else {
+                fn = isClear;
+                param = arguments[1];
+                var p = $.extend({context: null, args: [], time: 300}, param);
+                arguments.callee(true, fn);
+                fn._throttleID = setTimeout(function () {
+                    fn.apply(p.context, p.args)
+                }, p.time)
+            }
         }
     });
     //数组操作部分
@@ -153,8 +168,8 @@
                 ONLY_CHINSES = /^[\u2E80-\u9FFF]+$/,
                 HAS_CHINSES = /[\u2E80-\u9FFF]+/,
                 ONLY_LETTER_AND_NUMBER = /^[a-z]+[0-9]+$/i,
-                HAS_SPACE=/\s+/,
-                HAS_EXCEPT_C_N_L=/[^\u2E80-\u9FFFa-zA-Z0-9]+/;
+                HAS_SPACE = /\s+/,
+                HAS_EXCEPT_C_N_L = /[^\u2E80-\u9FFFa-zA-Z0-9]+/;
 
             var arithmetic = {
                 isNull: function (value) {
@@ -166,7 +181,7 @@
                 onlyLetOrNum: function (value) {
                     return ONLY_LETTER_OR_NUMBER.test(value);
                 },
-                hasLetOrNum:function (value) {
+                hasLetOrNum: function (value) {
                     return HAS_LETTER_OR_NUMBER.test(value);
                 },
                 onlyLetAndNum: function (value) {
@@ -187,13 +202,13 @@
                 onlyLet: function (value) {
                     return ONLY_LETTER.test(value);
                 },
-                hasLet:function (value) {
+                hasLet: function (value) {
                     return HAS_LETTER.test(value);
                 },
-                hasSpace:function (value) {
+                hasSpace: function (value) {
                     return HAS_SPACE.test(value);
                 },
-                hasExCLN:function (value) {
+                hasExCLN: function (value) {
                     return HAS_EXCEPT_C_N_L.test(value);
                 }
             };
