@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/事件/事件注册.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/位置/鼠标位置.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/高级技巧/创建dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/高级技巧/图片懒加载.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/高级技巧/节流器.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/高级技巧/获取元素.js" />
+    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="扩充内容">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/object/简单的extend.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array/数组去重.js" afterPath="$PROJECT_DIR$/array/数组去重.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/插件/jQuery.xiaobxia.js" afterPath="$PROJECT_DIR$/插件/jQuery.xiaobxia.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,41 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array/数组去重.js">
+      <file leaf-file-name="简单的extend.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/object/简单的extend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="图片懒加载.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/高级技巧/图片懒加载.js">
+      <file leaf-file-name="节流器.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/高级技巧/节流器.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="获取元素.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/高级技巧/获取元素.js">
+      <file leaf-file-name="extend.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/库的研究/jquery/extend.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muban.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="1092">
+              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -93,9 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/htmljs/draganddrop/1/muban.html" />
-        <option value="$PROJECT_DIR$/htmljs/draganddrop/2/muban.html" />
-        <option value="$PROJECT_DIR$/htmljs/workers/代码清单14-2.html" />
         <option value="$PROJECT_DIR$/json/1.js" />
         <option value="$PROJECT_DIR$/json/1.json" />
         <option value="$PROJECT_DIR$/json/book1.js" />
@@ -144,6 +122,9 @@
         <option value="$PROJECT_DIR$/高级技巧/获取元素.js" />
         <option value="$PROJECT_DIR$/class/class.js" />
         <option value="$PROJECT_DIR$/高级技巧/创建dom.js" />
+        <option value="$PROJECT_DIR$/object/简单的extend.js" />
+        <option value="$PROJECT_DIR$/高级技巧/放误触发.js" />
+        <option value="$PROJECT_DIR$/高级技巧/防误触发.js" />
       </list>
     </option>
   </component>
@@ -184,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,6 +182,10 @@
               <option name="myItemId" value="xiaobxia-js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="高级技巧" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -213,13 +196,11 @@
               <option name="myItemId" value="xiaobxia-js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +312,12 @@
       <workItem from="1478175086275" duration="3205000" />
       <workItem from="1478181300399" duration="442000" />
       <workItem from="1478331627963" duration="96000" />
-      <workItem from="1478332309324" duration="1481000" />
+      <workItem from="1478332309324" duration="1535000" />
+      <workItem from="1478334174667" duration="1525000" />
+      <workItem from="1478496523406" duration="395000" />
+      <workItem from="1478505983763" duration="832000" />
+      <workItem from="1478524601846" duration="101000" />
+      <workItem from="1478605764532" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -354,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477727024689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="扩充内容">
+      <created>1478333821429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1478333821429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60502000" />
+    <option name="totallyTimeSpent" value="63722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -397,7 +390,8 @@
     <MESSAGE value="cookie" />
     <MESSAGE value="添加" />
     <MESSAGE value="扩展表单验证" />
-    <option name="LAST_COMMIT_MESSAGE" value="扩展表单验证" />
+    <MESSAGE value="扩充内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="扩充内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,27 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/htmljs/workers/代码清单14-4/脚本文件/代码清单14-5/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/parse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json/stringify.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -650,27 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/插件/jQuery.xiaobxia.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="623">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/数组去重.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,15 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/事件/事件注册.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,15 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/图片懒加载.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,15 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/节流器.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,6 +662,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/高级技巧/图片懒加载.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/事件/事件注册.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object/简单的extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/高级技巧/节流器.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/高级技巧/防误触发.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
