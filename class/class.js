@@ -27,3 +27,7 @@ var removeClass = function (elem, className) {
     //截取字符串，参数1是为了剔除开头的空格，参数二的原因是为了剔除最后一个空格
     elem.className = newClass.substr(1, newClass.length - 2);
 };
+
+var removeAllClass=function (elem, className) {
+    elem.className="";
+};
