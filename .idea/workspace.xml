@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/requestAnimationFrame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/常用数据/常用数据.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/继承/寄生组合继承.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/高级技巧/获取元素.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/高级技巧/等待者.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/class.js" afterPath="$PROJECT_DIR$/class/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/高级技巧/获取元素.js" afterPath="$PROJECT_DIR$/获取元素/获取元素.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +25,18 @@
     <favorites_list name="xiaobxia-js" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="等待者.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/高级技巧/等待者.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/json/parse.js" />
         <option value="$PROJECT_DIR$/json/inJquery.js" />
         <option value="$PROJECT_DIR$/library/js/replace.js" />
         <option value="$PROJECT_DIR$/library/js/sort.js" />
@@ -99,6 +104,7 @@
         <option value="$PROJECT_DIR$/常用数据/常用数据.js" />
         <option value="$PROJECT_DIR$/事件/事件注册.js" />
         <option value="$PROJECT_DIR$/class/class.js" />
+        <option value="$PROJECT_DIR$/高级技巧/等待者.js" />
       </list>
     </option>
   </component>
@@ -139,6 +145,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,8 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +297,9 @@
       <workItem from="1479197299951" duration="23000" />
       <workItem from="1479197970780" duration="19000" />
       <workItem from="1479199451510" duration="653000" />
-      <workItem from="1479207241978" duration="61000" />
+      <workItem from="1479207241978" duration="126000" />
+      <workItem from="1479211209575" duration="4248000" />
+      <workItem from="1479265411503" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -328,17 +336,24 @@
       <option name="project" value="LOCAL" />
       <updated>1478606097493</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新代码">
+      <created>1479207353847</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1479207353847</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72738000" />
+    <option name="totallyTimeSpent" value="77157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13913691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13913691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -373,7 +388,8 @@
     <MESSAGE value="扩展表单验证" />
     <MESSAGE value="扩充内容" />
     <MESSAGE value="简单的extend" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单的extend" />
+    <MESSAGE value="新代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,13 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/each.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -645,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2835">
           <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -684,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,6 +703,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/高级技巧/等待者.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
           <folding />
         </state>
       </provider>
