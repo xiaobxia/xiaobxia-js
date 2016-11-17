@@ -1,17 +1,23 @@
-
 function AjaxQuery(option) {
-    this.url=option.url;
-    this.type=option.type;
-    this.fn=option.success;
-    this.query=option.data;
-    this.headers=option.headers;
-    this.dataType=option.dataType;
+    this.url = option.url;
+    this.type = option.type;
+    this.success = option.success;
+    this.data = option.data;
+    this.headers = option.headers;
+    this.dataType = option.dataType;
 }
 AjaxQuery.prototype = {
     constructor: AjaxQuery,
     init: function (exd) {
-        var xhrObj=null;
-        var that=this;
+        var key,
+            xhrObj = null;
+        that = this;
+        if (exd){
+            for(key in exd){
+                this[key]=exd[key];
+            }
+        }
+
         function createXHR() {
             if (typeof XMLHttpRequest != "undefined") {
                 createXHR = function () {
@@ -40,6 +46,7 @@ AjaxQuery.prototype = {
             }
             return createXHR();
         }
+
         function setQueryString(url, args) {
             var key, name, value;
             if (typeof args !== "object") {
@@ -54,30 +61,31 @@ AjaxQuery.prototype = {
             url = url.substring(0, url.length - 1);
             return url;
         }
-        xhrObj=createXHR();
-        xhrObj.onreadystatechange=function (event) {
-            var data=xhrObj.responseText;
-            if (xhrObj.readyState == 4){
-                if ((xhrObj.status >= 200 && xhrObj.status < 300) || xhrObj.status == 304){
-                    if (that.dataType&&that.dataType.toLowerCase()==="json"){
-                        data=JSON.parse(data);
+
+        xhrObj = createXHR();
+        xhrObj.onreadystatechange = function (event) {
+            var data = xhrObj.responseText;
+            if (xhrObj.readyState == 4) {
+                if ((xhrObj.status >= 200 && xhrObj.status < 300) || xhrObj.status == 304) {
+                    if (that.dataType && that.dataType.toLowerCase() === "json") {
+                        data = JSON.parse(data);
                     }
-                    that.fn(data);
+                    that.success(data);
                 } else {
 
                 }
             }
         };
         var queryUrl;
-        if (this.query){
-            queryUrl = setQueryString(this.url, this.query);
-        }else {
-            queryUrl=this.url;
+        if (this.data) {
+            queryUrl = setQueryString(this.url, this.data);
+        } else {
+            queryUrl = this.url;
         }
-        xhrObj.open(this.type,queryUrl,true);
-        if(this.headers){
-            for(var headersKey in this.headers){
-                xhrObj.setRequestHeader(headersKey,this.headers[headersKey]);
+        xhrObj.open(this.type, queryUrl, true);
+        if (this.headers) {
+            for (var headersKey in this.headers) {
+                xhrObj.setRequestHeader(headersKey, this.headers[headersKey]);
             }
         }
         xhrObj.send();

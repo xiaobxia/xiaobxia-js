@@ -28,6 +28,6 @@ var removeClass = function (elem, className) {
     elem.className = newClass.substr(1, newClass.length - 2);
 };
 
-var removeAllClass=function (elem, className) {
+var removeAllClass=function (elem) {
     elem.className="";
 };
