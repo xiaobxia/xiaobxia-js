@@ -32,12 +32,25 @@ var xbx = function () {
     method.removeAllClass = function (elem) {
         elem.className = "";
     };
-    method.addEvent = function(elem, eventName, handler) {
+    method.addEvent = function (elem, eventName, handler) {
         if (elem.addEventListener) {
             elem.addEventListener(eventName, handler, false);
         } else if (elem.attachEvent) {
             elem.attachEvent("on" + eventName, handler);
         }
+    };
+    method.domPosition = function () {
+        var queryDom = arguments[0],
+            position = arguments[1] || {x: 0, y: 0};
+        if (typeof position != "object") {
+            return;
+        }
+        if (queryDom.offsetParent) {
+            position.x = position.x + queryDom.offsetLeft;
+            position.y = position.y + queryDom.offsetTop;
+            position = arguments.callee(queryDom.offsetParent, position)
+        }
+        return position;
     };
     method.extend = function () {
         var i = 1,
@@ -62,7 +75,7 @@ var xbx = function () {
         }
         return array;
     };
-    method.unique=function (arr) {
+    method.unique = function (arr) {
         var ret = [];
         var hash = {};
         for (var i = 0; i < arr.length; i++) {
@@ -119,7 +132,7 @@ var xbx = function () {
     method.clearTimer = function (object) {
         clearTimeout(object.timer);
     };
-    method.setQueryString=function (url, args) {
+    method.setQueryString = function (url, args) {
         var key, name, value;
         if (typeof args !== "object") {
             return false;
@@ -133,7 +146,7 @@ var xbx = function () {
         url = url.substring(0, url.length - 1);
         return url;
     };
-    method.getQueryStringArgs=function(){
+    method.getQueryStringArgs = function () {
         var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
             args = {},
             items = qs.length ? qs.split("&") : [],
@@ -142,11 +155,11 @@ var xbx = function () {
             value = null,
             i = 0,
             len = items.length;
-        for (i=0; i < len; i++){
+        for (i = 0; i < len; i++) {
             item = items[i].split("=");
             name = decodeURIComponent(item[0]);
             value = decodeURIComponent(item[1]);
-            if (name.length){
+            if (name.length) {
                 args[name] = value;
             }
         }
@@ -160,15 +173,16 @@ var xbx = function () {
         this.headers = option.headers;
         this.dataType = option.dataType;
     }
+
     AjaxQuery.prototype = {
         constructor: AjaxQuery,
         init: function (exd) {
             var key,
                 xhrObj = null;
             that = this;
-            if (exd){
-                for(key in exd){
-                    this[key]=exd[key];
+            if (exd) {
+                for (key in exd) {
+                    this[key] = exd[key];
                 }
             }
             function createXHR() {
@@ -199,6 +213,7 @@ var xbx = function () {
                 }
                 return createXHR();
             }
+
             xhrObj = createXHR();
             xhrObj.onreadystatechange = function (event) {
                 var data = xhrObj.responseText;
@@ -228,25 +243,25 @@ var xbx = function () {
             xhrObj.send();
         }
     };
-    xbx.ajax=function (op) {
+    xbx.ajax = function (op) {
         return new AjaxQuery(op);
     };
-    method.throttle=function () {
-        var isClear=arguments[0],fn;
-        if(typeof  isClear ==="boolean"){
-            fn=arguments[1];
-            fn._throttleID&&clearTimeout(fn._throttleID);
-        }else {
-            fn=isClear;
-            param=arguments[1];
-            var p =extend({context:null,args:[],time:300},param);
-            arguments.callee(true,fn);
-            fn._throttleID=setTimeout(function () {
-                fn.apply(p.context,p.args)
-            },p.time)
+    method.throttle = function () {
+        var isClear = arguments[0], fn;
+        if (typeof  isClear === "boolean") {
+            fn = arguments[1];
+            fn._throttleID && clearTimeout(fn._throttleID);
+        } else {
+            fn = isClear;
+            param = arguments[1];
+            var p = extend({context: null, args: [], time: 300}, param);
+            arguments.callee(true, fn);
+            fn._throttleID = setTimeout(function () {
+                fn.apply(p.context, p.args)
+            }, p.time)
         }
     };
-    method.verify=(function () {
+    method.verify = (function () {
         var EMAIL = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/,
             ONLY_LETTER_OR_NUMBER = /^[a-z0-9]+$/i,
             HAS_LETTER_OR_NUMBER = /[a-z0-9]+/i,
@@ -306,15 +321,15 @@ var xbx = function () {
             return arithmetic[type] ? arithmetic[type](value) : false;
         }
     })();
-    method.mousePosition=function (e) {
+    method.mousePosition = function (e) {
         e = e || window.event;
         var x = e.pageX || (e.clientX +
             (document.documentElement.scrollLeft
             || document.body.scrollLeft));
-        var y= e.pageY || (e.clientY +
+        var y = e.pageY || (e.clientY +
             (document.documentElement.scrollTop
             || document.body.scrollTop));
-        return {'x':x,'y':y};
+        return {'x': x, 'y': y};
     };
     return method;
 }();

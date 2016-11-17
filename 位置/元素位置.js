@@ -1,4 +1,4 @@
-function domY() {
+function domPosition() {
     var queryDom = arguments[0],
         position = arguments[1] || {x: 0, y: 0};
     if (typeof position !="object") {
@@ -11,7 +11,3 @@ function domY() {
     }
     return position;
 }
-var one = document.getElementById("one");
-var two = document.getElementById("four");
-var po = domY(two);
-console.log(po);
