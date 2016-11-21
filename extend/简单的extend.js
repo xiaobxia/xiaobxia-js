@@ -4,7 +4,7 @@ var extend=function () {
         target=arguments[0];
     for(i;i<len;i++){
         for (var j in arguments[i]){
-            target[j]=arguments[j];
+            target[j]=arguments[i][j];
         }
     }
     return target;

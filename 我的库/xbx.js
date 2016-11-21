@@ -58,7 +58,7 @@ var xbx = function () {
             target = arguments[0];
         for (i; i < len; i++) {
             for (var j in arguments[i]) {
-                target[j] = arguments[j];
+                target[j] = arguments[i][j];
             }
         }
         return target;
@@ -127,7 +127,7 @@ var xbx = function () {
         }
     };
     method.setTimer = function (fn, interval, times) {
-        return new Mytimer(fn, interval, times);
+        return new MyTimer(fn, interval, times);
     };
     method.clearTimer = function (object) {
         clearTimeout(object.timer);
@@ -243,7 +243,7 @@ var xbx = function () {
             xhrObj.send();
         }
     };
-    xbx.ajax = function (op) {
+    method.ajax = function (op) {
         return new AjaxQuery(op);
     };
     method.throttle = function () {
@@ -254,7 +254,7 @@ var xbx = function () {
         } else {
             fn = isClear;
             param = arguments[1];
-            var p = extend({context: null, args: [], time: 300}, param);
+            var p = xbx.extend({context: null, args: [], time: 300}, param);
             arguments.callee(true, fn);
             fn._throttleID = setTimeout(function () {
                 fn.apply(p.context, p.args)
