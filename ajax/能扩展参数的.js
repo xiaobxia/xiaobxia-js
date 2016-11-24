@@ -17,7 +17,6 @@ AjaxQuery.prototype = {
                 this[key]=exd[key];
             }
         }
-
         function createXHR() {
             if (typeof XMLHttpRequest != "undefined") {
                 createXHR = function () {
