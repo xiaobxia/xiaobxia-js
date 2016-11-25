@@ -1,3 +1,6 @@
+body{
+    margin: 20px;
+}
 #one{
     position: relative;
     padding: 20px;
@@ -25,4 +28,9 @@
     width: 120px;
     height: 120px;
     background-color: #aaaaaa;
+}
+#six{
+    position: relative;
+    height: 600px;
+    background-color: blueviolet;
 }

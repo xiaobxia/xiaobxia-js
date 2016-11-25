@@ -4,7 +4,6 @@
 //更好
 var debounce = function(action, delay) {
     var timer = null;
-
     return function() {
         var self = this,
             args = arguments;
