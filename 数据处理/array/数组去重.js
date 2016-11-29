@@ -60,6 +60,16 @@ function unique(arr) {
     }
     return ret
 }
+
+var arr = [3,5,2,6,2,3,5,8,6];
+
+function distinct(arr) {
+    return arr.filter(function (elem,index,arr){
+        return arr.indexOf(elem,index+1) === -1;
+    });
+}
+
+console.log(distinct(arr));
 function unique5(array){
     var r = [];
     //[1,2,3,1,2]

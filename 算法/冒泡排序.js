@@ -1,5 +1,7 @@
-//冒泡排序
-//交换的次数最多，所以它的性能是最差的
+/**
+ * 冒泡排序
+ * 交换的次数最多，所以它的性能是最差的
+ */
 function bubbleSort(arr){
     var len=arr.length;
     for(var i=0;i<len;i++){
