@@ -1,72 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="添加编写的技巧">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/nodeType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/位置/视框.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/大小/函数说明.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/大小/获取窗口大小.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/单页应用路由/单页应用路由.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxExtend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSettings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSetup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/array/inArray.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/array/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/css/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/dom/getAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/nodeNam.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/offsetParent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/setOffset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/trigger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/window/getWindow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/window/isWindow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/大小.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/得到css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/类型检测/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/类型检测/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理/extend/带有深复制的.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理/类型检测/类型检测.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/算法/排序算法.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/例子.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extend/带有深复制的.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/verify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/window.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/库的研究/jquery/array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/库的研究/jquery/merge.js" afterPath="" />
+    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.css" afterPath="$PROJECT_DIR$/1测试/muban.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.html" afterPath="$PROJECT_DIR$/1测试/muban.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/map.js" afterPath="$PROJECT_DIR$/库的研究/jquery/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/parseJSON.js" afterPath="$PROJECT_DIR$/库的研究/jquery/parseJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/高级技巧/如何写库.js" afterPath="$PROJECT_DIR$/高级技巧/如何写库.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/array/sort.js" afterPath="$PROJECT_DIR$/数据处理/array/sort.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/array/数组去重.js" afterPath="$PROJECT_DIR$/数据处理/array/数组去重.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/array/转化为数组.js" afterPath="$PROJECT_DIR$/数据处理/array/转化为数组.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/class/class.js" afterPath="$PROJECT_DIR$/dom/class/class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/extend/简单的extend.js" afterPath="$PROJECT_DIR$/数据处理/extend/简单的extend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/json/1.json" afterPath="$PROJECT_DIR$/数据处理/json/1.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/json/inJquery.js" afterPath="$PROJECT_DIR$/数据处理/json/inJquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/json/parse.js" afterPath="$PROJECT_DIR$/数据处理/json/parse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/json/stringify.js" afterPath="$PROJECT_DIR$/数据处理/json/stringify.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/string/replace.js" afterPath="$PROJECT_DIR$/数据处理/string/replace.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/string/strToArr.js" afterPath="$PROJECT_DIR$/数据处理/string/strToArr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/xiaobxia-canvas/canvas-teach.js" afterPath="$PROJECT_DIR$/我的库/xiaobxia-canvas/canvas-teach.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/位置/元素位置.js" afterPath="$PROJECT_DIR$/dom/位置/得到元素位置.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/常用数据及转换/十进制和十六进制.js" afterPath="$PROJECT_DIR$/数据处理/常用数据及转换/十进制和十六进制.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/常用数据及转换/常用数据.js" afterPath="$PROJECT_DIR$/数据处理/常用数据及转换/常用数据.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/each.js" afterPath="$PROJECT_DIR$/库的研究/jquery/工具/each.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/extend.js" afterPath="$PROJECT_DIR$/库的研究/jquery/工具/extend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/jquery.cookie.js" afterPath="$PROJECT_DIR$/库的研究/jQuery插件/jquery.cookie.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/插件/jQuery.xiaobxia.js" afterPath="$PROJECT_DIR$/我的库/插件/jQuery.xiaobxia.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/编码解码html/编码.js" afterPath="$PROJECT_DIR$/dom/编码解码html/编码.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/编码解码html/解码.js" afterPath="$PROJECT_DIR$/dom/编码解码html/解码.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/获取元素/获取元素.js" afterPath="$PROJECT_DIR$/dom/获取元素/获取元素.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dom/大小/函数说明.js" afterPath="$PROJECT_DIR$/dom/大小/函数说明.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/access.js" afterPath="$PROJECT_DIR$/库的研究/jquery/access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/大小/height.js" afterPath="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,61 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="视框.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dom/位置/视框.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muban.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="height.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/height.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="each.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/each.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extend.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/extend.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="access.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/库的研究/jquery/access.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="329">
+              <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -154,6 +44,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
               <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="muban.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1测试/muban.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="函数说明.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dom/大小/函数说明.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -177,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/单页应用路由/单页应用路由.js" />
         <option value="$PROJECT_DIR$/算法/排序算法.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/a.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/trigger.js" />
@@ -193,7 +102,6 @@
         <option value="$PROJECT_DIR$/库的研究/isWindow.js" />
         <option value="$PROJECT_DIR$/dom/nodeType.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/css.js" />
-        <option value="$PROJECT_DIR$/库的研究/jquery/access.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/window/isWindow.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/map.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/window/getWindow.js" />
@@ -222,12 +130,14 @@
         <option value="$PROJECT_DIR$/dom/位置/元素位置.js" />
         <option value="$PROJECT_DIR$/dom/位置/得到元素位置.js" />
         <option value="$PROJECT_DIR$/dom/位置/视框.js" />
-        <option value="$PROJECT_DIR$/1测试/muban.js" />
         <option value="$PROJECT_DIR$/1测试/muban.css" />
         <option value="$PROJECT_DIR$/库的研究/jquery/大小/innerheight.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/大小/outerheight.js" />
-        <option value="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/each.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/access.js" />
+        <option value="$PROJECT_DIR$/1测试/muban.js" />
+        <option value="$PROJECT_DIR$/dom/大小/函数说明.js" />
       </list>
     </option>
   </component>
@@ -238,10 +148,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="30" />
+    <option name="y" value="57" />
     <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="height" value="755" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,7 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="库的研究" />
+              <option name="myItemId" value="dom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,33 +234,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="库的研究" />
+              <option name="myItemId" value="dom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="库的研究" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="工具" />
+              <option name="myItemId" value="大小" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,6 +259,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,7 +418,8 @@
       <workItem from="1480315771872" duration="2275000" />
       <workItem from="1480327754186" duration="9671000" />
       <workItem from="1480383047756" duration="13204000" />
-      <workItem from="1480414089025" duration="2849000" />
+      <workItem from="1480414089025" duration="4758000" />
+      <workItem from="1480418901303" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -658,17 +547,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480296864294</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="很多很多">
+      <created>1480416967860</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1480416967860</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172682000" />
+    <option name="totallyTimeSpent" value="175046000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="30" y="57" width="1370" height="755" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15015015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15015015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -714,7 +610,8 @@
     <MESSAGE value="1.区分节流器和去抖" />
     <MESSAGE value="1.库的模板" />
     <MESSAGE value="添加编写的技巧" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加编写的技巧" />
+    <MESSAGE value="很多很多" />
+    <option name="LAST_COMMIT_MESSAGE" value="很多很多" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,18 +628,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="1008" column="0" selection-start-line="1008" selection-start-column="0" selection-end-line="1008" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2009">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,6 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,6 +776,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -896,6 +784,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -903,6 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3003">
           <caret line="143" column="2" selection-start-line="143" selection-start-column="2" selection-end-line="143" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,19 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom/大小/函数说明.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dom/大小/获取窗口大小.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -978,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-231">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,14 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dom/位置/视框.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1022,43 +892,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/innerheight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/outerheight.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/innerheight.js" />
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/outerheight.js" />
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/dom/getAll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/each.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="1437" column="6" selection-start-line="1437" selection-start-column="6" selection-end-line="1437" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/access.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1050">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,26 +942,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dom/位置/视框.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/height.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="329">
+          <caret line="43" column="35" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/each.js">
+    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="168">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/extend.js">
+    <entry file="file://$PROJECT_DIR$/dom/大小/函数说明.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="189">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@ $("#six").on("click",function () {
     var c=$("#four").height(),
         n=$("#four").innerHeight(),
         o=$("#four").outerHeight();
-    var b="h:"+c+" i:"+n+" o:"+o;
+    var b="h:"+c+" i:"+n+" o:"+o+" ct"+a.clientTop;
     alert(b);
 });
 

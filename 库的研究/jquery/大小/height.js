@@ -6,12 +6,14 @@
 jQuery.each({
     Height: "height",
     Width: "width"
+    //name=Height，type=height
 }, function (name, type) {
     jQuery.each({
             padding: "inner" + name,
             content: type,
             "": "outer" + name
         },
+        //defaultExtra=padding，funcName="inner" + name=innerHeight
         function (defaultExtra, funcName) {
 
             // margin is only for outerHeight, outerWidth
