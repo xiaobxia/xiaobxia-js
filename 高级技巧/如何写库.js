@@ -15,5 +15,6 @@
     function xbx() {
 
     }
-    xbx.VERSION="0.0.0.0"
+    xbx.VERSION="0.0.0.0";
+    return xbx;
 });

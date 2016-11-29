@@ -10,3 +10,4 @@ var $$ = function (tagName, oParent) {
 var $$$ = function (className) {
     return document.getElementsByClassName(className)
 };
+//getElementsByTagName要比querySelectorAll来得快

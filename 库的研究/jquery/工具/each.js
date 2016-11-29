@@ -14,12 +14,14 @@ jQuery.extend({
             length = obj.length;
             for (; i < length; i++) {
                 //在判断的过程中执行了这个函数
+                //左边是索引右边是value
                 if (callback.call(obj[i], i, obj[i]) === false) {
                     break;
                 }
             }
         } else {
             for (i in obj) {
+                //左边是key，右边是value
                 if (callback.call(obj[i], i, obj[i]) === false) {
                     break;
                 }

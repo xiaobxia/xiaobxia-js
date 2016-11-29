@@ -1,5 +1,6 @@
 /**
- * Created by Administrator on 2016/9/28.
+ * 逻辑就是进行赋值合并
+ * 如果遇到引用类型，那么调用，对两个引用类型也用一遍extend
  */
 //用于扩展对象
 jQuery.extend = jQuery.fn.extend = function () {

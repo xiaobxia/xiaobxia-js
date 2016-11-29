@@ -1,0 +1,9 @@
+/**
+ *nodeType
+ *对于元素节点，nodeType=1
+ *对于文本节点，nodeType=3
+ *对于属性节点，nodeType=2
+ *另外提一下：
+ *对于注释元素，nodeType=8
+ *对于文档元素，nodeType=9
+ */

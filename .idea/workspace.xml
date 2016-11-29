@@ -1,12 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript编写/实践.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript编写/性能.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="添加编写的技巧">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/nodeType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/位置/视框.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/大小/函数说明.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dom/大小/获取窗口大小.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/单页应用路由/单页应用路由.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxExtend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSettings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/array/inArray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/array/merge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/css/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/css/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/dom/getAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/nodeNam.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/offsetParent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/offset等/setOffset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/trigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/window/getWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/window/isWindow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/大小.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/得到css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/类型检测/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/库的研究/jquery/类型检测/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理/extend/带有深复制的.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/数据处理/类型检测/类型检测.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/算法/排序算法.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/例子.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/extend/带有深复制的.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/verify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/js/window.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/库的研究/jquery/array.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/库的研究/jquery/merge.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.css" afterPath="$PROJECT_DIR$/1测试/muban.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.html" afterPath="$PROJECT_DIR$/1测试/muban.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/map.js" afterPath="$PROJECT_DIR$/库的研究/jquery/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/库的研究/jquery/parseJSON.js" afterPath="$PROJECT_DIR$/库的研究/jquery/parseJSON.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/高级技巧/如何写库.js" afterPath="$PROJECT_DIR$/高级技巧/如何写库.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/array/sort.js" afterPath="$PROJECT_DIR$/数据处理/array/sort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/array/数组去重.js" afterPath="$PROJECT_DIR$/数据处理/array/数组去重.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/array/转化为数组.js" afterPath="$PROJECT_DIR$/数据处理/array/转化为数组.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/class/class.js" afterPath="$PROJECT_DIR$/dom/class/class.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/extend/简单的extend.js" afterPath="$PROJECT_DIR$/数据处理/extend/简单的extend.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/json/1.json" afterPath="$PROJECT_DIR$/数据处理/json/1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/json/inJquery.js" afterPath="$PROJECT_DIR$/数据处理/json/inJquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/json/parse.js" afterPath="$PROJECT_DIR$/数据处理/json/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/json/stringify.js" afterPath="$PROJECT_DIR$/数据处理/json/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/string/replace.js" afterPath="$PROJECT_DIR$/数据处理/string/replace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/string/strToArr.js" afterPath="$PROJECT_DIR$/数据处理/string/strToArr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/xiaobxia-canvas/canvas-teach.js" afterPath="$PROJECT_DIR$/我的库/xiaobxia-canvas/canvas-teach.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/位置/元素位置.js" afterPath="$PROJECT_DIR$/dom/位置/得到元素位置.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/常用数据及转换/十进制和十六进制.js" afterPath="$PROJECT_DIR$/数据处理/常用数据及转换/十进制和十六进制.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/常用数据及转换/常用数据.js" afterPath="$PROJECT_DIR$/数据处理/常用数据及转换/常用数据.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/each.js" afterPath="$PROJECT_DIR$/库的研究/jquery/工具/each.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/extend.js" afterPath="$PROJECT_DIR$/库的研究/jquery/工具/extend.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/库的研究/jquery/jquery.cookie.js" afterPath="$PROJECT_DIR$/库的研究/jQuery插件/jquery.cookie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/插件/jQuery.xiaobxia.js" afterPath="$PROJECT_DIR$/我的库/插件/jQuery.xiaobxia.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编码解码html/编码.js" afterPath="$PROJECT_DIR$/dom/编码解码html/编码.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/编码解码html/解码.js" afterPath="$PROJECT_DIR$/dom/编码解码html/解码.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/获取元素/获取元素.js" afterPath="$PROJECT_DIR$/dom/获取元素/获取元素.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,23 +89,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="性能.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
+      <file leaf-file-name="视框.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dom/位置/视框.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-              <folding>
-                <element signature="e#1295#1318#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="实践.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javascript编写/实践.js">
+      <file leaf-file-name="muban.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1测试/muban.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="315">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="height.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/height.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="each.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/each.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extend.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/extend.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/库的研究/jquery/access.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="muban.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1测试/muban.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -69,57 +177,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/高级技巧/创建dom.js" />
-        <option value="$PROJECT_DIR$/高级技巧/放误触发.js" />
-        <option value="$PROJECT_DIR$/高级技巧/防误触发.js" />
-        <option value="$PROJECT_DIR$/canvas/requestAnimationFrame.js" />
-        <option value="$PROJECT_DIR$/继承/寄生组合继承.js" />
-        <option value="$PROJECT_DIR$/常用数据/常用数据.js" />
-        <option value="$PROJECT_DIR$/ajax/等待的ajax.js" />
-        <option value="$PROJECT_DIR$/ajax/myajax.js" />
-        <option value="$PROJECT_DIR$/extend/带有深复制的.js" />
-        <option value="$PROJECT_DIR$/class/class.js" />
-        <option value="$PROJECT_DIR$/ajax/带有回调.js" />
-        <option value="$PROJECT_DIR$/位置/元素位置.js" />
-        <option value="$PROJECT_DIR$/事件/事件注册.js" />
-        <option value="$PROJECT_DIR$/事件/event对象.js" />
-        <option value="$PROJECT_DIR$/事件/事件注册与移除.js" />
-        <option value="$PROJECT_DIR$/位置/鼠标位置.js" />
-        <option value="$PROJECT_DIR$/事件/鼠标滚轮.js" />
-        <option value="$PROJECT_DIR$/1测试/鼠标按钮.js" />
-        <option value="$PROJECT_DIR$/表单/防止多次提交.js" />
-        <option value="$PROJECT_DIR$/表单/选择文本.js" />
-        <option value="$PROJECT_DIR$/事件/得到键值.js" />
-        <option value="$PROJECT_DIR$/键盘/得到键值.js" />
-        <option value="$PROJECT_DIR$/object/简单的extend.js" />
-        <option value="$PROJECT_DIR$/我的库/xbx.js" />
-        <option value="$PROJECT_DIR$/canvas/判断位置.js" />
-        <option value="$PROJECT_DIR$/canvas/画图.js" />
-        <option value="$PROJECT_DIR$/string/strToArr.js" />
-        <option value="$PROJECT_DIR$/高级技巧/等待者.js" />
-        <option value="$PROJECT_DIR$/高级技巧/自己实现ES6的Promise.js" />
-        <option value="$PROJECT_DIR$/高级技巧/简单的Promise.js" />
-        <option value="$PROJECT_DIR$/ajax/能扩展参数的.js" />
-        <option value="$PROJECT_DIR$/常用数据及转换/十进制和十六进制.js" />
-        <option value="$PROJECT_DIR$/canvas/a.js" />
-        <option value="$PROJECT_DIR$/canvas/tick.js" />
-        <option value="$PROJECT_DIR$/我的库/xbx-canvas.js" />
-        <option value="$PROJECT_DIR$/高级技巧/图片懒加载.js" />
-        <option value="$PROJECT_DIR$/高级技巧/b.js" />
-        <option value="$PROJECT_DIR$/高级技巧/节流器.js" />
-        <option value="$PROJECT_DIR$/高级技巧/浏览器判断.js" />
-        <option value="$PROJECT_DIR$/存储/webstorage/1.js" />
-        <option value="$PROJECT_DIR$/存储/永久存储兼容方案.js" />
-        <option value="$PROJECT_DIR$/存储/存储兼容方案.js" />
-        <option value="$PROJECT_DIR$/高级技巧/去抖.js" />
-        <option value="$PROJECT_DIR$/高级技巧/bilibili图片懒加载.js" />
+        <option value="$PROJECT_DIR$/单页应用路由/单页应用路由.js" />
+        <option value="$PROJECT_DIR$/算法/排序算法.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/a.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/trigger.js" />
         <option value="$PROJECT_DIR$/高级技巧/如何写库.js" />
-        <option value="$PROJECT_DIR$/1测试/muban.html" />
+        <option value="$PROJECT_DIR$/位置/视框.js" />
+        <option value="$PROJECT_DIR$/dom/大小.js" />
+        <option value="$PROJECT_DIR$/dom/大小/获取窗口大小.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/node.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/offset.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/array/array.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/array/inArray.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/getWindow.js" />
+        <option value="$PROJECT_DIR$/库的研究/isWindow.js" />
+        <option value="$PROJECT_DIR$/dom/nodeType.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/css.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/access.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/window/isWindow.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/map.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/window/getWindow.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/得到css.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/getStyles.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSeting.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSettings.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxExtend.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSetup.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/ajax/ajax.js" />
+        <option value="$PROJECT_DIR$/闭包/例子.js" />
+        <option value="$PROJECT_DIR$/数据处理/array/数组去重.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/类型检测/type.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/类型检测/is.js" />
+        <option value="$PROJECT_DIR$/数据处理/类型检测/类型检测.js" />
+        <option value="$PROJECT_DIR$/extend/带有深复制的.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/extend.js" />
+        <option value="$PROJECT_DIR$/dom/获取元素/获取元素.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/dom/getAll.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/array/merge.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/parseJSON.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/offsetParent.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/offset等/setOffset.js" />
+        <option value="$PROJECT_DIR$/dom/大小/元素大小.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/offset等/offset.js" />
+        <option value="$PROJECT_DIR$/dom/位置/元素位置.js" />
+        <option value="$PROJECT_DIR$/dom/位置/得到元素位置.js" />
+        <option value="$PROJECT_DIR$/dom/位置/视框.js" />
         <option value="$PROJECT_DIR$/1测试/muban.js" />
         <option value="$PROJECT_DIR$/1测试/muban.css" />
-        <option value="$PROJECT_DIR$/javascript性能/性能.js" />
-        <option value="$PROJECT_DIR$/javascript编写/性能.js" />
-        <option value="$PROJECT_DIR$/javascript编写/实践.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/大小/innerheight.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/大小/outerheight.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
+        <option value="$PROJECT_DIR$/库的研究/jquery/each.js" />
       </list>
     </option>
   </component>
@@ -130,9 +238,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="3" />
-    <option name="width" value="1233" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -160,6 +268,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,6 +286,20 @@
               <option name="myItemId" value="xiaobxia-js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="鼠标" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -188,20 +311,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript编写" />
+              <option name="myItemId" value="库的研究" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="库的研究" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="库的研究" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="工具" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaobxia-js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1测试" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/plugin-learn/lazy.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -210,15 +386,15 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\xiaobxia-js\高级技巧\懒加载" />
-      <recent name="F:\xiaobxia-js\高级技巧\去抖和节流" />
-      <recent name="F:\xiaobxia-js\鼠标" />
-      <recent name="F:\xiaobxia-js\存储" />
-      <recent name="F:\xiaobxia-js\extend" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\xiaobxia-js\库的研究\jquery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xiaobxia-js\库的研究\jquery\工具" />
+      <recent name="F:\xiaobxia-js\库的研究\jquery\offset等" />
+      <recent name="F:\xiaobxia-js\库的研究\jquery\array" />
+      <recent name="F:\xiaobxia-js\库的研究\jquery\css" />
+      <recent name="F:\xiaobxia-js\数据处理" />
     </key>
   </component>
   <component name="RunManager">
@@ -348,7 +524,13 @@
       <workItem from="1480068340671" duration="2133000" />
       <workItem from="1480074860375" duration="3877000" />
       <workItem from="1480255400899" duration="2155000" />
-      <workItem from="1480294253745" duration="2586000" />
+      <workItem from="1480294253745" duration="5902000" />
+      <workItem from="1480311377705" duration="623000" />
+      <workItem from="1480312311671" duration="75000" />
+      <workItem from="1480315771872" duration="2275000" />
+      <workItem from="1480327754186" duration="9671000" />
+      <workItem from="1480383047756" duration="13204000" />
+      <workItem from="1480414089025" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -469,32 +651,39 @@
       <option name="project" value="LOCAL" />
       <updated>1480081655427</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="添加编写的技巧">
+      <created>1480296864294</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1480296864294</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140669000" />
+    <option name="totallyTimeSpent" value="172682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="3" width="1233" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16903765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15015015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -524,7 +713,8 @@
     <MESSAGE value="1.添加图片懒加载" />
     <MESSAGE value="1.区分节流器和去抖" />
     <MESSAGE value="1.库的模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.库的模板" />
+    <MESSAGE value="添加编写的技巧" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加编写的技巧" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,336 +723,373 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/URL/解析.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/惰性函数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/数组去重.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/插件/jQuery.xiaobxia.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="104" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/xhr用法-回调.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/带有回调.js" />
-    <entry file="file://$PROJECT_DIR$/鼠标/鼠标滚轮.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/事件/事件注册与移除.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/表单/选择文本.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/表单/防止多次提交.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/键盘/keyboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/键盘/得到键值.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/事件/event对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/简单的extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extend/带有深复制的.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/存储/cookie/SubCookieUtil.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1701">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/string/strToArr.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/array/array.js" />
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/array/inArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/鼠标/鼠标按钮.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="193">
+          <caret line="1008" column="0" selection-start-line="1008" selection-start-column="0" selection-end-line="1008" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/简单的Promise.js" />
-    <entry file="file://$PROJECT_DIR$/高级技巧/自己实现ES6的Promise.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/等待者.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/等待的ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-2009">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/myajax.js" />
-    <entry file="file://$PROJECT_DIR$/常用数据及转换/十进制和十六进制.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/tick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/requestAnimationFrame.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jQuery插件/jquery.cookie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/得到css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxExtend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSettings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/例子.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据处理/array/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4242">
+          <caret line="241" column="50" selection-start-line="241" selection-start-column="50" selection-end-line="241" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas/判断位置.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/画图.js">
+    <entry file="file://$PROJECT_DIR$/dom/nodeType.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        <state relative-caret-position="147">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/我的库/xbx-canvas.js" />
-    <entry file="file://$PROJECT_DIR$/ajax/能扩展参数的.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的库/xbx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/创建dom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/位置/元素位置.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/window/isWindow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/存储/cookie/CookieUtil.js">
+    <entry file="file://$PROJECT_DIR$/数据处理/类型检测/类型检测.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/存储/cookie/jquery.cookie.js">
+    <entry file="file://$PROJECT_DIR$/数据处理/extend/简单的extend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="854">
-          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/浏览器判断.js">
+    <entry file="file://$PROJECT_DIR$/数据处理/extend/带有深复制的.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="44" selection-end-line="68" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/存储/webstorage/1.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/类型检测/type.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="357">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/存储/存储兼容方案.js" />
-    <entry file="file://F:/website-code-learn/哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯_ - bilibili_files/base.core.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/类型检测/is.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="294">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="49" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/懒加载/图片懒加载.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/去抖和节流/节流器.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/去抖和节流/去抖.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/懒加载/bilibili图片懒加载.js">
+    <entry file="file://$PROJECT_DIR$/dom/获取元素/获取元素.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/merge.js" />
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/nodeNam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/array/merge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/parseJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/pushStack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/trigger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="143" column="2" selection-start-line="143" selection-start-column="2" selection-end-line="143" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/css/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/css/getStyles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/鼠标/鼠标位置.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="168">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/offset等/offsetParent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        <state relative-caret-position="21">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom/大小/函数说明.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom/大小/获取窗口大小.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/window/getWindow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom/位置/得到元素位置.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/offset等/setOffset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="399">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dom/位置/视框.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/offset等/offset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/innerheight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/outerheight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/dom/getAll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/access.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1测试/muban.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/如何写库.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/大小/height.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="315">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/plugin-learn/lazy.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/each.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
+    <entry file="file://$PROJECT_DIR$/库的研究/jquery/工具/extend.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <element signature="e#1295#1318#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript编写/实践.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="21">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,8 @@
+/**
+ * 速度快的，但是占内存，用时间换空间
+ * 在hash中存入(类型+值)，arr的元素和hash对比，如果不存在就添加
+ * */
 
-/*1.跨浏览器的，数组去重的函数*/
-//1.性能好的，但是不实用的
 function unique(arr) {
     var ret = [];
     var hash = {};
@@ -21,8 +23,15 @@ function unique(arr) {
     //返回
     return ret
 }
-//2.性能不好的，但是实用的
-//自己写的indexOf函数，用于兼容低版本浏览器
+
+
+/**
+ * 建立一个新数组，遍历arr，如果arr中的项在新数组中不存在就添加，存在就略过
+ * 自己写indexOf函数，用于兼容低版本浏览器
+ * 性能不好的，但是实用的
+ * 性能不好的原因在于，在低浏览器中会有两次循环
+ * */
+
 var indexOf = [].indexOf ?
     //如果有indexOf方法
     function(arr, item) {

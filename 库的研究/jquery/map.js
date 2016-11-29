@@ -1,3 +1,4 @@
+
 jQuery.fn = jQuery.prototype = {
     //将一组元素转换成数组
     map: function (callback) {
