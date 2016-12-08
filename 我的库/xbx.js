@@ -39,6 +39,26 @@ var xbx = function () {
             elem.attachEvent("on" + eventName, handler);
         }
     };
+    method.getEvent = function (event) {
+        return event ? event : window.event;
+    };
+    method.getEventTarget = function (event) {
+        return event.target || event.srcElement;
+    };
+    method.stopPropagation = function (event) {
+        if (event.stopPropagation){
+            event.stopPropagation();
+        } else{
+            event.cancelBubble = true;
+        }
+    };
+    method.preventDefault=function (event) {
+        if(event.preventDefault){
+            event.preventDefault();
+        }else {
+            event.returnValue=false;
+        }
+    };
     method.domPosition = function () {
         var queryDom = arguments[0],
             position = arguments[1] || {x: 0, y: 0};
