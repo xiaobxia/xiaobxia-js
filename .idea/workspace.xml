@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1测试/headjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1测试/lib/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1测试/lib/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/异步模块.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/异步模块/muban.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/异步模块/异步模块.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/模块/异步模块.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.html" afterPath="$PROJECT_DIR$/1测试/muban.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我的库/xbx.js" afterPath="$PROJECT_DIR$/我的库/xbx.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1测试/lib/dom.js" afterPath="$PROJECT_DIR$/模块/异步模块/lib/dom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1测试/lib/event.js" afterPath="$PROJECT_DIR$/模块/异步模块/lib/event.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,68 +29,7 @@
     <favorites_list name="xiaobxia-js" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="异步模块.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/模块/异步模块.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muban.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/lib/dom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/lib/event.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muban.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headjs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/headjs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,18 +170,8 @@
               <option name="myItemId" value="模块" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1测试" />
+              <option name="myItemId" value="异步模块" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,10 +186,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="1测试" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,15 +206,16 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xiaobxia-js\模块\异步模块" />
+      <recent name="F:\xiaobxia-js\库的研究\jquery" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xiaobxia-js\模块\异步模块" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\数据处理" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\工具" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\offset等" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\array" />
-      <recent name="F:\xiaobxia-js\库的研究\jquery\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\xiaobxia-js\库的研究\jquery" />
     </key>
   </component>
   <component name="RunManager">
@@ -436,7 +360,7 @@
       <workItem from="1480742775504" duration="1704000" />
       <workItem from="1480835580553" duration="643000" />
       <workItem from="1481117962755" duration="639000" />
-      <workItem from="1481182181489" duration="6927000" />
+      <workItem from="1481182181489" duration="12714000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -585,17 +509,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480421201222</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="异步模块">
+      <created>1481191693102</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1481191693102</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189158000" />
+    <option name="totallyTimeSpent" value="194945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14880952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14880952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -642,7 +573,8 @@
     <MESSAGE value="1.库的模板" />
     <MESSAGE value="添加编写的技巧" />
     <MESSAGE value="很多很多" />
-    <option name="LAST_COMMIT_MESSAGE" value="很多很多" />
+    <MESSAGE value="异步模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -651,13 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/pushStack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/库的研究/jquery/trigger.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3003">
@@ -948,15 +873,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/headjs.js">
+    <entry file="file://$PROJECT_DIR$/模块/异步模块/lib/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="84">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/lib/dom.js">
+    <entry file="file://$PROJECT_DIR$/模块/异步模块/lib/dom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
@@ -964,10 +889,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/muban.html">
+    <entry file="file://$PROJECT_DIR$/模块/异步模块/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -980,18 +905,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/lib/event.js">
+    <entry file="file://$PROJECT_DIR$/模块/异步模块/异步模块.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模块/异步模块.js">
+    <entry file="file://$PROJECT_DIR$/1测试/muban.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <state relative-caret-position="208">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1测试/headjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
           <folding />
         </state>
       </provider>
