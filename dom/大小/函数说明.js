@@ -16,4 +16,6 @@
  * 7. scrollLeft和scrollTop是指元素滚动条位置，它们是可写的
  *
  * 8. getBoundingClientRect得到元素的上边和左边相对窗口的距离
+ *
+ * 9. ele.parentNode得到父节点
  */
