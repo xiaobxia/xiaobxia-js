@@ -11,18 +11,19 @@
  3：跳转  href = '#/name'
  */
 /**
- * 1.初始化，注册load和hashchange时执行urlChange
- * 2.urlChange：得到路由看有没有在routers中注册，没有注册就回到index，注册了就去执行回调
- *  使用map在routers中注册
+ * 先map注册
+ * 初始化，注册load和hashchange时执行urlChange
+ * urlChange：得到路由看有没有在routers中注册，没有注册就回到index，注册了就去执行回调
+ *
  */
 (function() {
     //工具函数
     var util = {
         //获取路由的路径和详细参数
-        //格式www.baidu.com#a?name=ccc&password=dddd
+        //格式www.baidu.com#/a?name=ccc&password=dddd
         getParamsUrl:function(){
             var hashDeatail = location.hash.split("?"),
-                //hashName=a
+                //hashName=/a
                 hashName = hashDeatail[0].split("#")[1],
                 //params=["name=ccc","password=dddd"]
                 params = hashDeatail[1] ? hashDeatail[1].split("&") : [],//参数内容
@@ -146,6 +147,7 @@
                      * 对SPA_RESOLVE_INIT重新赋值
                      * fn包含所有逻辑
                      */
+                    //onload是异步的所以load事件触发了当前函数，然后hashchange触发时fn还是null
                     self.afterFun && self.afterFun(transition);
                     self.routers[transition.path].fn = SPA_RESOLVE_INIT;
                     self.routers[transition.path].fn(transition);
