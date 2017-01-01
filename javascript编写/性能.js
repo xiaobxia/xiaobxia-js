@@ -94,3 +94,4 @@ for(var prop in object) { //第二快
 [1,2].forEach(function(value, index, array) { //最慢
  });
 //在现代浏览器中createElement的性能比innerHtml好
+//在现代浏览器中字符串连接使用+比join数组快

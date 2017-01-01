@@ -32,6 +32,22 @@ var xbx = function () {
     method.removeAllClass = function (elem) {
         elem.className = "";
     };
+    //设置属性
+    method.setAttr = function (ele, attr, value) {
+        ele.setAttribute(attr, value);
+    };
+    //得到属性
+    method.getAttr = function (ele, attr) {
+        return ele.getAttribute(attr);
+    };
+    //移除属性
+    method.removeAttr = function (ele, attr) {
+        ele.removeAttribute(attr);
+    };
+    //返回节点名
+    method.getNodeName = function (ele, str) {
+        return ele.nodeName.toLowerCase() === str;
+    };
     method.addEvent = function (elem, eventName, handler) {
         if (elem.addEventListener) {
             elem.addEventListener(eventName, handler, false);
@@ -46,17 +62,17 @@ var xbx = function () {
         return event.target || event.srcElement;
     };
     method.stopPropagation = function (event) {
-        if (event.stopPropagation){
+        if (event.stopPropagation) {
             event.stopPropagation();
-        } else{
+        } else {
             event.cancelBubble = true;
         }
     };
-    method.preventDefault=function (event) {
-        if(event.preventDefault){
+    method.preventDefault = function (event) {
+        if (event.preventDefault) {
             event.preventDefault();
-        }else {
-            event.returnValue=false;
+        } else {
+            event.returnValue = false;
         }
     };
     method.domPosition = function () {
