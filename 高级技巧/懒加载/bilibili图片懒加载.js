@@ -1,8 +1,12 @@
 var LazyImage = function () {
     function B(d) {
+        //默认设置
         this.config = {
+            //默认的视框偏差
             distance: 200,
+            //默认的背景图
             defaultImg: "http://static.hdslb.com/images/v3images/img_loading.png",
+            //默认的模式
             mode: "wrap"
         };
         //extend默认设置
@@ -70,5 +74,5 @@ var LazyImage = function () {
     B.prototype._inViewRange = function (c) {
         return c.offset().top + c.outerHeight(!0) > $(window).scrollTop() - this.config.distance && c.offset().top < $(window).scrollTop() + $(window).height() + this.config.distance && c.offset().left + c.outerWidth(!0) >= $(window).scrollLeft() - this.config.distance && c.offset().left <= $(window).scrollLeft() + $(window).width() + this.config.distance
     };
-    return b
+    return B;
 }();

@@ -16,9 +16,17 @@
 		</div>
 	</div>
 </div>
+
 <div id="seven"></div>
 <input type="text" id="five">
 <div id="six"></div>
+<script id="test" type="text/html">
+	<% if (title){ %>
+	<% for (var i=0;i<list.length;i++) { %>
+	<div><%=list[i]%></div>
+	<%}%>
+	<%}%>
+</script>
 	<script  src="./muban.js"></script>
 </body>
 </html>

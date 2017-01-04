@@ -12,6 +12,7 @@
 // Licensed under the MIT license.
 //
 (function() {
+	//说明版本
 	var doT = { version : '0.1.7' };
 
 	if (typeof module !== 'undefined' && module.exports) {

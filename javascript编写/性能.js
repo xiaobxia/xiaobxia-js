@@ -93,5 +93,15 @@ for(var prop in object) { //第二快
 }
 [1,2].forEach(function(value, index, array) { //最慢
  });
+
 //在现代浏览器中createElement的性能比innerHtml好
+
 //在现代浏览器中字符串连接使用+比join数组快
+
+//for循环如果只要找一个东西，找到就break，减少无用的判断
+for(var i = 0; i < handlers.length; i++){
+    //找出本次需要处理的事件下标
+    if(handlers[i] == handler){
+        break;
+    }
+}
