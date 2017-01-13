@@ -77,6 +77,9 @@ document.getElementById('seven').innerHTML = html;
  * 在moduleCache注册依赖的模块
  * 并异步加载
  * */
-var dd=/java(?!script)/;
-var ss="javasdcriptdf";
-console.log(dd.test(ss));
+var dd="00";
+var cc=xbx.verify("onlyNum",dd);
+console.log(cc);
+var ee=/^javascript$/;
+var ff="javascriptjavascript";
+console.log(ee.test(ff));

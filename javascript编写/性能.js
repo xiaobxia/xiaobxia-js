@@ -105,3 +105,19 @@ for(var i = 0; i < handlers.length; i++){
         break;
     }
 }
+
+(function () {
+    var aa=[1,2,3],
+        len=aa.length,
+        k=aa.length-1;
+   for (var i=0;i<aa.length;i++){
+
+   }
+   for(var j=0;j<len;j++){
+       //减少了对aa.length的查询
+   }
+   for (;k>=0;k--){
+       //只有一个变量
+   }
+})();
+

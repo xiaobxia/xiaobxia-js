@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/正则/理解例子.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/表单/富文本编辑.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/设计模式/观察者模式.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.html" afterPath="$PROJECT_DIR$/1测试/muban.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/正则/正则规则说明.js" afterPath="$PROJECT_DIR$/正则/正则规则说明.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript编写/性能.js" afterPath="$PROJECT_DIR$/javascript编写/性能.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,52 +28,22 @@
     <favorites_list name="xiaobxia-js" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="选择框.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/表单/选择框.js">
+    <leaf>
+      <file leaf-file-name="观察者模式.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/设计模式/观察者模式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="正则规则说明.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/正则/正则规则说明.js">
+      <file leaf-file-name="性能.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="muban.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xbx.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/我的库/xbx.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6403">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="理解例子.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/正则/理解例子.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="313">
+              <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -97,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/库的研究/jquery/大小/height.js" />
         <option value="$PROJECT_DIR$/库的研究/jquery/access.js" />
         <option value="$PROJECT_DIR$/数据处理/array/数组去重.js" />
         <option value="$PROJECT_DIR$/算法/排序算法.js" />
@@ -123,12 +92,9 @@
         <option value="$PROJECT_DIR$/模板引擎/高效模板引擎原则.js" />
         <option value="$PROJECT_DIR$/我的库/xbx.js" />
         <option value="$PROJECT_DIR$/高级技巧/懒加载/bilibili图片懒加载.js" />
-        <option value="$PROJECT_DIR$/模板引擎/doT.js" />
         <option value="$PROJECT_DIR$/模板引擎/tppl.js" />
-        <option value="$PROJECT_DIR$/1测试/muban.html" />
         <option value="$PROJECT_DIR$/模板引擎/xbxTemp.js" />
         <option value="$PROJECT_DIR$/事件/自定义事件.js" />
-        <option value="$PROJECT_DIR$/javascript编写/性能.js" />
         <option value="$PROJECT_DIR$/ajax/webSockets/说明.js" />
         <option value="$PROJECT_DIR$/算法/排序/术语.js" />
         <option value="$PROJECT_DIR$/数据处理/常用数据及转换/农历.js" />
@@ -146,8 +112,12 @@
         <option value="$PROJECT_DIR$/表单/选择框.js" />
         <option value="$PROJECT_DIR$/表单/富文本编辑.js" />
         <option value="$PROJECT_DIR$/正则/正则规则说明.js" />
-        <option value="$PROJECT_DIR$/1测试/muban.js" />
         <option value="$PROJECT_DIR$/正则/理解例子.js" />
+        <option value="$PROJECT_DIR$/1测试/muban.html" />
+        <option value="$PROJECT_DIR$/1测试/muban.js" />
+        <option value="$PROJECT_DIR$/模板引擎/doT.js" />
+        <option value="$PROJECT_DIR$/设计模式/观察者模式.js" />
+        <option value="$PROJECT_DIR$/javascript编写/性能.js" />
       </list>
     </option>
   </component>
@@ -188,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -218,26 +187,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="我的库" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1测试" />
+              <option name="myItemId" value="javascript编写" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,16 +208,16 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\xiaobxia-js\模块\异步模块" />
-      <recent name="F:\xiaobxia-js\库的研究\jquery" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\xiaobxia-js\算法\排序" />
       <recent name="F:\xiaobxia-js\环境判断" />
       <recent name="F:\xiaobxia-js\模块\异步模块" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\数据处理" />
       <recent name="F:\xiaobxia-js\库的研究\jquery\工具" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xiaobxia-js\模块\异步模块" />
+      <recent name="F:\xiaobxia-js\库的研究\jquery" />
     </key>
   </component>
   <component name="RunManager">
@@ -434,7 +390,8 @@
       <workItem from="1483516419542" duration="9444000" />
       <workItem from="1483602329124" duration="167000" />
       <workItem from="1483846625350" duration="5210000" />
-      <workItem from="1484280394589" duration="13990000" />
+      <workItem from="1484280394589" duration="14893000" />
+      <workItem from="1484310397276" duration="3733000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -639,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484284633169</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1.富文本&#10;2.正则表达">
+      <created>1484307739654</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1484307739654</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276932000" />
+    <option name="totallyTimeSpent" value="281568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -679,7 +643,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie" />
     <MESSAGE value="添加" />
     <MESSAGE value="扩展表单验证" />
     <MESSAGE value="扩充内容" />
@@ -704,7 +667,8 @@
     <MESSAGE value="添加懒加载和模板引擎" />
     <MESSAGE value="添加webSockets" />
     <MESSAGE value="很多" />
-    <option name="LAST_COMMIT_MESSAGE" value="很多" />
+    <MESSAGE value="1.富文本&#10;2.正则表达" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.富文本&#10;2.正则表达" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,13 +677,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/模板引擎/tmpl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据处理/array/sort.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -748,13 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1测试/muban.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,13 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -906,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,20 +866,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模板引擎/doT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/请求.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -984,9 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="796">
           <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,15 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的库/xbx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6403">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,24 +981,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="221">
+          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/我的库/xbx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="335" column="12" selection-start-line="335" selection-start-column="12" selection-end-line="335" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1测试/muban.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/正则/理解例子.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
+        <state relative-caret-position="253">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板引擎/doT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1382">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/正则/正则规则说明.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        <state relative-caret-position="313">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/设计模式/观察者模式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
           <folding />
         </state>
       </provider>
