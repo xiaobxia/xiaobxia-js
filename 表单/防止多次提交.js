@@ -1,3 +1,7 @@
+/**
+ * 实现的思想在于当表单submit触发以后
+ * 对表单中的submit的按钮进行禁用
+ */
 var addEvent = function (elem, eventName, handler) {
     if (elem.addEventListener) {
         elem.addEventListener(eventName, handler, false);
