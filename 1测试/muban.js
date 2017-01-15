@@ -83,3 +83,22 @@ console.log(cc);
 var ee=/^javascript$/;
 var ff="javascriptjavascript";
 console.log(ee.test(ff));
+var df={
+};
+for (var ww=96;ww<124;ww++){
+    df[ww]=String.fromCharCode(ww);
+}
+console.log(df);
+var getCharCode= function(event){
+    return event.keyCode;
+};
+var pp={};
+xbx.addEvent(window,"keydown",function (e) {
+    var s=getCharCode(e);
+    var d=e.code;
+    pp[s]=d;
+});
+xbx.addEvent(eight,"click",function () {
+    console.log(pp);
+});
+
