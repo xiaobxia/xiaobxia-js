@@ -71,6 +71,5 @@ function addqueryarg(url,args) {
             }
             return r;
         }
-
     });
 })(jQuery);

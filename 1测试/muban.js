@@ -99,6 +99,25 @@ xbx.addEvent(window,"keydown",function (e) {
     pp[s]=d;
 });
 xbx.addEvent(eight,"click",function () {
-    console.log(pp);
+   var filedon=document.getElementById("fileInput1");
+    fileObject(filedon);
 });
+function fileObject(dom) {
+    var fileList=dom.files,
+        len=fileList.length,
+        inf={};
+    for(var i=0;i<len;i++){
+        inf[fileList[i].type]=fileList[i].size;
+    }
+    console.log(inf);
+}
 
+function uo(dom) {
+    var text="asdhjk";
+    var b=new Blob([text]);
+    if(window.URL){
+        dom.innerHTML='<a download href="'+window.URL.createObjectURL(b)+'" target="_blank">文件下载</a>'
+    }
+}
+var ll=document.getElementById("four");
+uo(ll);
