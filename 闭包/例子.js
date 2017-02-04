@@ -16,3 +16,18 @@ var result=f1();
 result(); // 999
 nAdd();
 result(); // 1000
+
+for(var i = 0, file; file = files[i]; ++i){
+    //因为闭包的关系
+    (function(f) {
+        fs.root.getFile(file.name, {create: true}, function(fileEntry) {
+            fileEntry.createWriter(function(fileWriter) {
+                fileWriter.onwriteend = function(e) {
+                    document.getElementById("result").innerHTML+='复制文件名为：'+f.name+'<br/>';
+                };
+                fileWriter.onerror = errorHandler
+                fileWriter.write(f);
+            }, errorHandler);
+        }, errorHandler);
+    })(file);
+}

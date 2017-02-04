@@ -66,6 +66,7 @@ AjaxQuery.prototype = {
             var data = xhrObj.responseText;
             if (xhrObj.readyState == 4) {
                 if ((xhrObj.status >= 200 && xhrObj.status < 300) || xhrObj.status == 304) {
+                    //这个dataType是自行指定的
                     if (that.dataType && that.dataType.toLowerCase() === "json") {
                         data = JSON.parse(data);
                     }

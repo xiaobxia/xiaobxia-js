@@ -1,4 +1,6 @@
 /*
+用于画图，使画图的帧和屏幕刷新的帧相同
+
 var fps = 30;
 var now;
 var then = Date.now();

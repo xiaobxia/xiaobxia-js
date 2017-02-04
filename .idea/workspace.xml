@@ -2,14 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8635b410-cc02-4e4f-9275-21a40ed3033b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/ArrayBuffer对象.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/Blob对象.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileReader对象.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/file对象.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Base64编码/atob方法示例.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Base64编码/btoa方法示例.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/01获取二进制数据.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/02ArrayBuffer和Blob响应.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/03发送字符串.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/04发送表单数据.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/05上传文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/06发送Blob对象.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/07发送ArrayBuffer对象.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/进度条的用法.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/01绘制基础.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/02画圆.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/03绘制直线.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/04画虚线.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/05绘制曲线.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/06path2D绘制.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/07渐变.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/08坐标变换.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/09绘制阴影.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/10绘制图像.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/11图像平铺.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/12图像裁剪.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/13像素处理.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/14组合图形.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/15绘制文字.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/canvas/16保存于恢复状态.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5js/webSockets/发送各种数据.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5js/拖放/01实现拖放的步骤.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5js/拖放/02DataTransfer属性和方法.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5js/拖放/03拖放图标.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5js/通知/01概念.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/01访问文件系统.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/02申请磁盘配额.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/03查询配额信息.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/04创建文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/05写入文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/06文件中追加数据.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/07读取文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/08复制磁盘中的文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/09删除文件.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/10创建目录.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/11创建三级目录.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/12读取目录的内容.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/13删除目录.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/14复制文件或目录.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/15移动与重命名.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/文件api/FileSystem Api/16filesystemURL前缀.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包/说明.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ajax/等待的ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/1.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.html" afterPath="$PROJECT_DIR$/1测试/muban.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1测试/muban.js" afterPath="$PROJECT_DIR$/1测试/muban.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/URL/URL尾部添加查询.js" afterPath="$PROJECT_DIR$/URL/URL尾部添加查询.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/能扩展参数的.js" afterPath="$PROJECT_DIR$/ajax/能扩展参数的.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/canvas/tick.js" afterPath="$PROJECT_DIR$/canvas/tick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/闭包/例子.js" afterPath="$PROJECT_DIR$/闭包/例子.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ajax/webSockets/说明.js" afterPath="$PROJECT_DIR$/html5js/webSockets/说明.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/1/downArrow.gif" afterPath="$PROJECT_DIR$/html5js/拖放/1/downArrow.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/1/muban.css" afterPath="$PROJECT_DIR$/html5js/拖放/1/muban.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/1/muban.html" afterPath="$PROJECT_DIR$/html5js/拖放/1/muban.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/1/muban.js" afterPath="$PROJECT_DIR$/html5js/拖放/1/muban.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/2/crypic.png" afterPath="$PROJECT_DIR$/html5js/拖放/2/crypic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/2/muban.css" afterPath="$PROJECT_DIR$/html5js/拖放/2/muban.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/2/muban.html" afterPath="$PROJECT_DIR$/html5js/拖放/2/muban.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/draganddrop/2/muban.js" afterPath="$PROJECT_DIR$/html5js/拖放/2/muban.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/web.config" afterPath="$PROJECT_DIR$/html5js/workers/web.config" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-1.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-11/test.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-11/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-11/代码清单14-11.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-11/代码清单14-11.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-13/test.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-13/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-13/代码清单14-13.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-13/代码清单14-13.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-13/代码清单14-14.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-13/代码清单14-14.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-16/test.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-16/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-16/代码清单14-16.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-16/代码清单14-16.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-2/SumCalculate.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-2/SumCalculate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-2/代码清单14-2.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-2/代码清单14-2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-2/使用说明.txt" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-2/使用说明.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-2/脚本文件/代码清单14-3/SumCalculate.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-2/脚本文件/代码清单14-3/SumCalculate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-4/代码清单14-4.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-4/代码清单14-4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-4/使用说明.txt" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-4/使用说明.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-4/脚本文件/代码清单14-5/script.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-4/脚本文件/代码清单14-5/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/代码清单14-6.html" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/代码清单14-6.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/使用说明.txt" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/使用说明.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/脚本文件/代码清单14-10/worker1.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/脚本文件/代码清单14-10/worker1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/脚本文件/代码清单14-7/script.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/脚本文件/代码清单14-7/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/脚本文件/代码清单14-8/worker2.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/脚本文件/代码清单14-8/worker2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/代码清单14-6/脚本文件/代码清单14-9/script.js" afterPath="$PROJECT_DIR$/html5js/workers/代码清单14-6/脚本文件/代码清单14-9/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/htmljs/workers/应用场景.js" afterPath="$PROJECT_DIR$/html5js/workers/应用场景.js" />
     </list>
     <ignored path="xiaobxia-js.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,21 +112,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="file对象.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/文件api/file对象.js">
+      <file leaf-file-name="例子.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/闭包/例子.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="736">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="muban.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1测试/muban.html">
+      <file leaf-file-name="说明.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/闭包/说明.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="244">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -55,38 +135,8 @@
       <file leaf-file-name="muban.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1测试/muban.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="119" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayBuffer对象.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/文件api/ArrayBuffer对象.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Blob对象.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/文件api/Blob对象.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileReader对象.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/文件api/FileReader对象.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="23">
+              <caret line="1" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -110,57 +160,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1测试/lib/dom.js" />
-        <option value="$PROJECT_DIR$/1测试/headjs.js" />
-        <option value="$PROJECT_DIR$/1测试/lib/event.js" />
-        <option value="$PROJECT_DIR$/模块/异步模块.js" />
-        <option value="$PROJECT_DIR$/dom/获取元素/兼容.js" />
-        <option value="$PROJECT_DIR$/dom/属性/属性.js" />
-        <option value="$PROJECT_DIR$/dom/属性/Retina.js" />
-        <option value="$PROJECT_DIR$/dom/大小/函数说明.js" />
-        <option value="$PROJECT_DIR$/单页应用路由/单页应用路由.js" />
-        <option value="$PROJECT_DIR$/模板引擎/a.js" />
-        <option value="$PROJECT_DIR$/模板引擎/artTemplate.js" />
-        <option value="$PROJECT_DIR$/正则/正则.js" />
-        <option value="$PROJECT_DIR$/模板引擎/高效模板引擎原则.js" />
-        <option value="$PROJECT_DIR$/我的库/xbx.js" />
-        <option value="$PROJECT_DIR$/高级技巧/懒加载/bilibili图片懒加载.js" />
-        <option value="$PROJECT_DIR$/模板引擎/tppl.js" />
-        <option value="$PROJECT_DIR$/模板引擎/xbxTemp.js" />
-        <option value="$PROJECT_DIR$/事件/自定义事件.js" />
-        <option value="$PROJECT_DIR$/ajax/webSockets/说明.js" />
-        <option value="$PROJECT_DIR$/算法/排序/术语.js" />
-        <option value="$PROJECT_DIR$/数据处理/常用数据及转换/农历.js" />
-        <option value="$PROJECT_DIR$/模板引擎/baiduTemplate.js" />
-        <option value="$PROJECT_DIR$/ajax/请求.js" />
-        <option value="$PROJECT_DIR$/dom/dom集操作/dom集操作.js" />
-        <option value="$PROJECT_DIR$/表单/防止多次提交.js" />
-        <option value="$PROJECT_DIR$/表单/获取表单.js" />
-        <option value="$PROJECT_DIR$/事件/event对象.js" />
-        <option value="$PROJECT_DIR$/表单/表单基础.js" />
-        <option value="$PROJECT_DIR$/表单/阻止表单提交.js" />
-        <option value="$PROJECT_DIR$/表单/textarea.js" />
-        <option value="$PROJECT_DIR$/表单/表单序列化.js" />
-        <option value="$PROJECT_DIR$/表单/剪切板.js" />
-        <option value="$PROJECT_DIR$/表单/选择框.js" />
-        <option value="$PROJECT_DIR$/表单/富文本编辑.js" />
-        <option value="$PROJECT_DIR$/正则/正则规则说明.js" />
-        <option value="$PROJECT_DIR$/正则/理解例子.js" />
-        <option value="$PROJECT_DIR$/模板引擎/doT.js" />
-        <option value="$PROJECT_DIR$/设计模式/观察者模式.js" />
-        <option value="$PROJECT_DIR$/javascript编写/性能.js" />
-        <option value="$PROJECT_DIR$/htmljs/workers/应用场景.js" />
-        <option value="$PROJECT_DIR$/记忆/string.js" />
-        <option value="$PROJECT_DIR$/键盘/得到键值.js" />
-        <option value="$PROJECT_DIR$/键盘/键值表.js" />
-        <option value="$PROJECT_DIR$/URL/URL尾部添加查询.js" />
-        <option value="$PROJECT_DIR$/文件api/file对象.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/08复制磁盘中的文件.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/09删除文件.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/10创建目录.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/11创建三级目录.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/12读取目录的内容.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/13删除目录.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/14复制文件或目录.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/15移动与重命名.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/16filesystemURL前缀.js" />
+        <option value="$PROJECT_DIR$/文件api/FileSystem Api/17综合项目.js" />
+        <option value="$PROJECT_DIR$/canvas/tick.js" />
+        <option value="$PROJECT_DIR$/Base64编码/atob方法.js" />
+        <option value="$PROJECT_DIR$/Base64编码/atob方法示例.js" />
+        <option value="$PROJECT_DIR$/Base64编码/btoa方法示例.js" />
+        <option value="$PROJECT_DIR$/ajax/01获取二进制数据.js" />
+        <option value="$PROJECT_DIR$/ajax/能扩展参数的.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/01获取二进制数据.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/ArrayBuffer和Blob响应.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/02ArrayBuffer和Blob响应.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/03发送字符串.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/04发送表单数据.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/05上传文件.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/进度条的用法.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/06发送Blob对象.js" />
+        <option value="$PROJECT_DIR$/ajax/HTML5对xhr的扩展/07发送ArrayBuffer对象.js" />
+        <option value="$PROJECT_DIR$/html5js/拖放/01实现拖放的步骤.js" />
+        <option value="$PROJECT_DIR$/html5js/拖放/02DataTransfer属性和方法.js" />
+        <option value="$PROJECT_DIR$/html5js/拖放/03拖放图标.js" />
+        <option value="$PROJECT_DIR$/html5js/拖放/1.js" />
+        <option value="$PROJECT_DIR$/html5js/通知/01概念.js" />
+        <option value="$PROJECT_DIR$/html5js/webSockets/发送各种数据.js" />
+        <option value="$PROJECT_DIR$/canvas/01绘制基础.js" />
+        <option value="$PROJECT_DIR$/canvas/02画圆.js" />
+        <option value="$PROJECT_DIR$/canvas/03绘制直线.js" />
+        <option value="$PROJECT_DIR$/canvas/04画虚线.js" />
+        <option value="$PROJECT_DIR$/canvas/05绘制曲线.js" />
+        <option value="$PROJECT_DIR$/canvas/06path2D绘制.js" />
+        <option value="$PROJECT_DIR$/canvas/07线性渐变.js" />
+        <option value="$PROJECT_DIR$/canvas/07渐变.js" />
+        <option value="$PROJECT_DIR$/canvas/08坐标变换.js" />
         <option value="$PROJECT_DIR$/1测试/muban.html" />
-        <option value="$PROJECT_DIR$/文件api/DateView对象.js" />
-        <option value="$PROJECT_DIR$/文件api/ArrayBuffer对象.js" />
+        <option value="$PROJECT_DIR$/canvas/09绘制阴影.js" />
+        <option value="$PROJECT_DIR$/canvas/10绘制图像.js" />
+        <option value="$PROJECT_DIR$/canvas/11图像平铺.js" />
+        <option value="$PROJECT_DIR$/canvas/12图像裁剪.js" />
+        <option value="$PROJECT_DIR$/canvas/13像素处理.js" />
+        <option value="$PROJECT_DIR$/canvas/14组合图形.js" />
+        <option value="$PROJECT_DIR$/canvas/15绘制文字.js" />
+        <option value="$PROJECT_DIR$/canvas/16保存于恢复状态.js" />
         <option value="$PROJECT_DIR$/1测试/muban.js" />
-        <option value="$PROJECT_DIR$/文件api/Blob对象.js" />
-        <option value="$PROJECT_DIR$/文件api/FileReader对象.js" />
+        <option value="$PROJECT_DIR$/闭包/说明.js" />
       </list>
     </option>
   </component>
@@ -173,7 +223,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -201,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -230,33 +281,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="文件api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xiaobxia-js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1测试" />
+              <option name="myItemId" value="闭包" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/example-code" />
+    <property name="last_opened_file_path" value="F:/《HTML 5与CSS 3权威指南（第3版)》51442,51443,代码清单" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -270,11 +306,11 @@
       <recent name="F:\xiaobxia-js\库的研究\jquery" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\xiaobxia-js\html5js" />
+      <recent name="F:\xiaobxia-js\ajax\HTML5对xhr的扩展" />
       <recent name="F:\xiaobxia-js\算法\排序" />
       <recent name="F:\xiaobxia-js\环境判断" />
       <recent name="F:\xiaobxia-js\模块\异步模块" />
-      <recent name="F:\xiaobxia-js\库的研究\jquery\数据处理" />
-      <recent name="F:\xiaobxia-js\库的研究\jquery\工具" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.得到键值.js">
@@ -462,7 +498,15 @@
       <workItem from="1484310397276" duration="4011000" />
       <workItem from="1484359875481" duration="2849000" />
       <workItem from="1484397297803" duration="1509000" />
-      <workItem from="1484454328139" duration="19471000" />
+      <workItem from="1484454328139" duration="19505000" />
+      <workItem from="1484718951910" duration="2895000" />
+      <workItem from="1485066204995" duration="7038000" />
+      <workItem from="1485140246470" duration="5478000" />
+      <workItem from="1485311311877" duration="16029000" />
+      <workItem from="1485398428972" duration="18976000" />
+      <workItem from="1485493061773" duration="3271000" />
+      <workItem from="1485857799491" duration="4735000" />
+      <workItem from="1486198333941" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="cookie">
       <created>1476861086855</created>
@@ -688,32 +732,39 @@
       <option name="project" value="LOCAL" />
       <updated>1484461975068</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="1.添加文件api">
+      <created>1484488893979</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1484488893979</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305675000" />
+    <option name="totallyTimeSpent" value="364167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15413533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -728,7 +779,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="扩展表单验证" />
     <MESSAGE value="扩充内容" />
     <MESSAGE value="简单的extend" />
     <MESSAGE value="新代码" />
@@ -753,377 +803,366 @@
     <MESSAGE value="很多" />
     <MESSAGE value="1.富文本&#10;2.正则表达" />
     <MESSAGE value="1.worker的应用场景&#10;2.键值的补充" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.worker的应用场景&#10;2.键值的补充" />
+    <MESSAGE value="1.添加文件api" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.添加文件api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxExtend.js">
+    <entry file="file://$PROJECT_DIR$/文件api/FileSystem Api/01访问文件系统.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="345">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/xhr的用法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSetup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9476">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/库的研究/jquery/ajax/ajaxSettings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据处理/常用数据及转换/农历.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="251" column="14" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/术语.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/选择排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/插入排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/排序算法对比.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/快速排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/归并排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/希尔排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/奇偶排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/算法/排序/冒泡排序.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板引擎/baiduTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板引擎/tppl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板引擎/artTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12236">
-          <caret line="536" column="0" selection-start-line="536" selection-start-column="0" selection-end-line="536" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/请求.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/文件api/ArrayBuffer对象.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/01获取二进制数据.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/能扩展参数的.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级技巧/懒加载/blazy.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/进度条的用法.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10120">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="115">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom/dom集操作/dom集操作.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/07发送ArrayBuffer对象.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="244">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/事件/event对象.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/06发送Blob对象.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="414">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/textarea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/事件/自定义事件.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/表单/阻止表单提交.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/05上传文件.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/表单基础.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/表单/防止多次提交.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/04发送表单数据.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/表单序列化.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/03发送字符串.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="92">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/剪切板.js">
+    <entry file="file://$PROJECT_DIR$/ajax/HTML5对xhr的扩展/02ArrayBuffer和Blob响应.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="182">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/选择文本.js">
+    <entry file="file://$PROJECT_DIR$/存储/cookie/SubCookieUtil.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/表单/富文本编辑.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/表单/选择框.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/我的库/xbx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="335" column="12" selection-start-line="335" selection-start-column="12" selection-end-line="335" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则/理解例子.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模板引擎/doT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1382">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则/正则规则说明.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript编写/性能.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1509">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/观察者模式.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Levi's 官方旗舰店 - 京东.html" />
     <entry file="file://$PROJECT_DIR$/键盘/键值表.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="-1711">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/键盘/得到键值.js">
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/1/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/键盘/keyboard.js">
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/2/muban.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="161">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmljs/workers/应用场景.js">
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/2/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/记忆/string.js">
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/1.js" />
+    <entry file="file://$PROJECT_DIR$/html5js/webSockets/发送各种数据.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="483">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URL/URL尾部添加查询.js">
+    <entry file="file://$PROJECT_DIR$/html5js/webSockets/说明.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1493">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="69">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dom/大小/函数说明.js">
+    <entry file="file://$PROJECT_DIR$/html5js/通知/01概念.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/03拖放图标.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/02DataTransfer属性和方法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5js/拖放/01实现拖放的步骤.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件api/ArrayBuffer对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/文件api/file对象.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模板引擎/doT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/requestAnimationFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/判断位置.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/04画虚线.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/画图.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/06path2D绘制.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/05绘制曲线.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/01绘制基础.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="21" />
-          <folding />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/03绘制直线.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/11图像平铺.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/10绘制图像.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/09绘制阴影.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/08坐标变换.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/07渐变.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="265">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/02画圆.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/16保存于恢复状态.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/15绘制文字.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/14组合图形.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/13像素处理.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/12图像裁剪.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/例子.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/闭包/说明.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1测试/muban.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="119" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件api/Blob对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/文件api/FileReader对象.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
           <folding />
         </state>
       </provider>
