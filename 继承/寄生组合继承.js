@@ -1,3 +1,7 @@
+function SuperType() {
+
+
+}
 function inheritObj(o) {
     function F() {}
     F.prototype=o;
