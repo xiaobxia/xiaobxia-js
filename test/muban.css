@@ -18,7 +18,7 @@
     background-color: #00b0e8; }
 
 body {
-  margin: 20px 10px; }
+  margin: 0; }
 
 #one {
   position: relative;
@@ -103,5 +103,43 @@ body {
       width: 200px;
       height: 200px;
       background-color: green; }
+
+.filter-tab {
+  width: 100%;
+  height: 3.5em;
+  margin: 0;
+  padding: 0; }
+  .filter-tab:before, .filter-tab:after {
+    content: " ";
+    display: table; }
+  .filter-tab:after {
+    clear: both; }
+  .filter-tab li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 3.5em;
+    text-align: center; }
+    .filter-tab li span {
+      margin-right: .25em; }
+  .filter-tab .select-direction {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.6em;
+    height: 0.3em;
+    overflow: hidden; }
+    .filter-tab .select-direction div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 0.3em solid transparent;
+      border-top: 0.3em solid black; }
+  .filter-tab .filter-tab-item.active {
+    color: red; }
+    .filter-tab .filter-tab-item.active .select-direction div {
+      top: -0.3em;
+      border-bottom: 0.3em solid red; }
 
 /*# sourceMappingURL=muban.css.map */

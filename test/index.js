@@ -61,7 +61,7 @@ var blockE = function (e) {
     eventInElement(e, block, master, function () {
         master.style.display = 'none';
         off(master, 'click', blockE);
-    },function () {
+    }, function () {
         console.log("in")
     });
 };
@@ -74,4 +74,75 @@ on(btn, 'click', function () {
         on(master, 'click', blockE);
     }
 })
+var fd = {
+    el: 'f-1',
+    popover: 'm-1',
+    template: function (index, label, style) {
+        return '<li class="filter-tab-item" data-index="' + index + '" style="' + style + '"><span>' + label + '</span><div class="select-direction"><div></div></div></li>'
+    },
+    popoverTemplate: function () {
+    },
+    data: [
+        {
+            label: '位置',
+            select: [
+                {
+                    label: '不限',
+                    value: '0'
+                }
+            ]
+        },
+        {label: '总价'},
+        {label: '户型'},
+        {label: '排序'}
+    ],
+    closeCallback: function (target, popover) {
+        popover.style.display = 'none';
+    },
+    openCallback: function (target, popover) {
+        popover.style.display = 'block';
+    },
+    selectCallback: function () {
+    }
+};
+
+function filterTab(option) {
+    var _tab = document.getElementById(option.el);
+    var _popover = document.getElementById(option.popover);
+    var htmlTemplate = '';
+    var data = option.data;
+    var len = data.length;
+    var templateFn = option.template;
+    var itemStyle = 'width:' + 100 / len + '%';
+    var lastActiveItem = null;
+    for (var k = 0; k < len; k++) {
+        htmlTemplate += templateFn(k, data[k].label, itemStyle);
+    }
+    _tab.innerHTML = htmlTemplate;
+    on(_tab, 'click', function (e) {
+        var event = e || window.event;
+        var target = event.target || event.srcElement;
+        while (!target.classList.contains('filter-tab-item')) {
+            if (target === _tab) {
+                break;
+            }
+            target = target.parentNode;
+        }
+        if (target !== _tab) {
+            if (target.classList.contains('active')) {
+                target.classList.remove('active');
+                option.closeCallback(target, _popover);
+                lastActiveItem = null;
+            } else {
+                target.classList.add('active');
+                if (lastActiveItem) {
+                    lastActiveItem.classList.remove('active');
+                }
+                option.openCallback(target, _popover);
+                lastActiveItem = target;
+            }
+        }
+    })
+}
+filterTab(fd);
 
