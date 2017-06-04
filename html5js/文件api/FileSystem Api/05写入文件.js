@@ -2,7 +2,7 @@
  * 利用FileEntry对象的createWriter方法创建FileWriter对象
  * FileWriter对象
  * write方法 在获取到的文件中写入二进制数据，参数是一个Blob对象
- * 事件
+ * event
  * onwriteend 文件操作结束时触发，无论成功或者失败
  * onerror 文件操作失败时触发
  *

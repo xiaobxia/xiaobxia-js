@@ -34,7 +34,7 @@ var notification=new Notification(title,options);
 /**
  * 方法
  * Notification.close()  关闭通知
- * 事件
+ * event
  * Notification.ondisplay(onshow)= function() {alert('通知被显示');};
  * Notification.onclose = function() {alert('通知被关闭');};
  * Notification.onclick = function() {alert('通知被点击');};

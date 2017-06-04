@@ -2,7 +2,6 @@ var getEvent = function (event) {
     return event ? event : window.event;
 };
 var getEventTarget = function (event) {
-
     return event.target || event.srcElement;
 };
 //得到事件对象中的name为"submit-btn"的元素

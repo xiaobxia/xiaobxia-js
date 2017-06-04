@@ -30,7 +30,7 @@ function getLocalStorage() {
         throw new Error("Local storage not available.");
     }
 }
-//事件
+//event
 EventUtil.addHandler(document, "storage", function (event) {
     //event对象有4个属性
     //发生变化的存储空间域名
