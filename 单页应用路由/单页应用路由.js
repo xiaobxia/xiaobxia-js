@@ -17,7 +17,7 @@
  *
  */
 (function() {
-    //工具函数
+    //util
     var util = {
         //获取路由的路径和详细参数
         //格式www.baidu.com#/a?name=ccc&password=dddd
