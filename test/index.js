@@ -145,4 +145,6 @@ function filterTab(option) {
     })
 }
 filterTab(fd);
-
+var ss = document.getElementById('m-1');
+console.log(ss.cloneNode(false))
+;
