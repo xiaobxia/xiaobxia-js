@@ -21,8 +21,8 @@ function addClass(el, cls) {
     if (!el) return;
     var curClass = el.className;
     var classes = (cls || '').split(' ');
-    for (let i = 0, j = classes.length; i < j; i++) {
-        let clsName = classes[i];
+    for (var i = 0, j = classes.length; i < j; i++) {
+        var clsName = classes[i];
         if (!clsName) continue;
         if (el.classList) {
             el.classList.add(clsName);
