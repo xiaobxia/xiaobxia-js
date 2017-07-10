@@ -1,4 +1,3 @@
-
 (function (factory) {
 	//用于兼容其他规范和库
 	if (typeof define === 'function' && define.amd) {
