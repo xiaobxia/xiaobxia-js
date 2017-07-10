@@ -2,15 +2,16 @@
  * Created by xiaobxia on 2017/6/1.
  */
 //判断ie的版本
+const SPECIAL_CHARS_REGEXP = /([\:\-\_]+(.))/g;
+const MOZ_HACK_REGEXP = /^moz([A-Z])/;
 const ieVersion = new Number(document.documentMode);
 //驼峰
-const camelCase = function(name) {
-    return name.replace(SPECIAL_CHARS_REGEXP, function(_, separator, letter, offset) {
+const camelCase = function (name) {
+    return name.replace(SPECIAL_CHARS_REGEXP, function (_, separator, letter, offset) {
         return offset ? letter.toUpperCase() : letter;
     }).replace(MOZ_HACK_REGEXP, 'Moz$1');
 };
-const getStyle = ieVersion < 9 ? function(element, styleName) {
-    if (isServer) return;
+const getStyle = ieVersion < 9 ? function (element, styleName) {
     if (!element || !styleName) return null;
     styleName = camelCase(styleName);
     if (styleName === 'float') {
@@ -25,12 +26,22 @@ const getStyle = ieVersion < 9 ? function(element, styleName) {
                     return 1.0;
                 }
             default:
-                return (element.style[styleName] || element.currentStyle ? element.currentStyle[styleName] : null);
+                if (window.getComputedStyle) {
+                    //在浏览器中返回关联document的window对象，如果没有则返回null
+                    var view = elem.ownerDocument.defaultView;
+
+                    if (!view || !view.opener) {
+                        view = window;
+                    }
+                    return view.getComputedStyle(elem)[styleName];
+                } else {
+                    return (element.style[styleName] || element.currentStyle ? element.currentStyle[styleName] : null);
+                }
         }
     } catch (e) {
         return element.style[styleName];
     }
-} : function(element, styleName) {
+} : function (element, styleName) {
     if (isServer) return;
     if (!element || !styleName) return null;
     styleName = camelCase(styleName);
