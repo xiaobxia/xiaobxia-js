@@ -48,7 +48,7 @@ var eventInElement = function (e, block, parent, inCallback, noInCallback) {
         }
         target = target.parentNode;
     }
-    if (!isIn) {
+    if (isIn) {
         return inCallback ? inCallback() : true;
     } else {
         return noInCallback ? noInCallback() : false;
@@ -59,10 +59,10 @@ var master = document.getElementById('m-1');
 var block = document.getElementById('c-2');
 var blockE = function (e) {
     eventInElement(e, block, master, function () {
+        console.log("in")
+    },function () {
         master.style.display = 'none';
         off(master, 'click', blockE);
-    }, function () {
-        console.log("in")
     });
 };
 on(btn, 'click', function () {
@@ -73,7 +73,7 @@ on(btn, 'click', function () {
         master.style.display = 'block';
         on(master, 'click', blockE);
     }
-})
+});
 var fd = {
     el: 'f-1',
     popover: 'm-1',
@@ -146,5 +146,3 @@ function filterTab(option) {
 }
 filterTab(fd);
 var ss = document.getElementById('m-1');
-console.log(ss.cloneNode(false))
-;
