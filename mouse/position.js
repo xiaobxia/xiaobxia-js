@@ -30,5 +30,4 @@ function mousePositionPage(event) {
     position.x = pageX;
     position.y = pageY;
     return position;
-
 }

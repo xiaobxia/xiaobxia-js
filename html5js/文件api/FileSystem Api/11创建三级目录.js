@@ -1,7 +1,7 @@
 /**
  * 递归地创建
  */
-var path = 'test/test1/test2';
+var path = '_test_page/test1/test2';
 //创建目录
 function createDirectory(rootDirEntry, folders){
     window.webkitRequestFileSystem(

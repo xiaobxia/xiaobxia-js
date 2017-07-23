@@ -111,7 +111,7 @@ var trigger= function (event, data, elem, onlyHandlers) {
         ) {
 
             // Call a native DOM method on the target with the same name name as the event.
-            // Can't use an .isFunction() check here because IE6/7 fails that test.
+            // Can't use an .isFunction() check here because IE6/7 fails that _test_page.
             // Don't do default actions on window, that's where global variables be (#6170)
             if (ontype && elem[type] && !jQuery.isWindow(elem)) {
 

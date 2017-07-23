@@ -10,7 +10,7 @@
       title: '标签',
       list: ['文艺', '博客', '摄影', '电影', '民谣', '旅行', '吉他']
    };
- var html = tppl(document.getElementById('test').innerHTML, data);
+ var html = tppl(document.getElementById('_test_page').innerHTML, data);
  */
 function tppl(tpl, data, fast) {
     /**

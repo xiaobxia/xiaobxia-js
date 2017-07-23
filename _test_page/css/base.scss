@@ -1,0 +1,16 @@
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin absolute-center {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}

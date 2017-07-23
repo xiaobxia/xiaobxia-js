@@ -162,10 +162,10 @@
 
 
         str = str
-        //定义变量，如果没有分号，需要容错  <%var val='test'%>
+        //定义变量，如果没有分号，需要容错  <%var val='_test_page'%>
             .replace(new RegExp("(" + _left + "[\\s]*?var[\\s]*?.*?[\\s]*?[^;])[\\s]*?" + _right, "g"), "$1;" + _right_)
 
-            //对变量后面的分号做容错(包括转义模式 如<%:h=value%>)  <%=value;%> 排除掉函数的情况 <%fun1();%> 排除定义变量情况  <%var val='test';%>
+            //对变量后面的分号做容错(包括转义模式 如<%:h=value%>)  <%=value;%> 排除掉函数的情况 <%fun1();%> 排除定义变量情况  <%var val='_test_page';%>
             .replace(new RegExp("(" + _left + ":?[hvu]?[\\s]*?=[\\s]*?[^;|" + _right + "]*?);[\\s]*?" + _right, "g"), "$1" + _right_)
 
             //按照 <% 分割为一个个数组，再用 \t 和在一起，相当于将 <% 替换为 \t

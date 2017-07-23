@@ -1,19 +1,4 @@
-@mixin clearfix() {
-  &:before,
-  &:after {
-    content: " "; // 1
-    display: table; // 2
-  }
-  &:after {
-    clear: both;
-  }
-}
-@mixin absolute-center {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-}
+@import "base";
 .f1{
   position: relative;
   height: 100%;
@@ -23,7 +8,7 @@
   .c1 {
 
 
-@include absolute-center;
+    @include absolute-center;
     width: 20px;
     height: 20px;
     background-color: #00b0e8;
@@ -70,7 +55,7 @@ body{
   background-color: blueviolet;
 }
 .jj{
-box-sizing: border-box;
+  box-sizing: border-box;
   height: 80px;
   width: 80px;
   margin: 20px;
@@ -93,11 +78,11 @@ box-sizing: border-box;
     background-color: #1b1818;
     zoom: .5;
     .nn{
-    width: 100%;
+      width: 100%;
       height: 100%;
       background-color: #fff;
-      
-  }
+
+    }
   }
   .oo{
     height: 25px;
