@@ -28,12 +28,12 @@ const getStyle = ieVersion < 9 ? function (element, styleName) {
             default:
                 if (window.getComputedStyle) {
                     //在浏览器中返回关联document的window对象，如果没有则返回null
-                    var view = elem.ownerDocument.defaultView;
+                    var view = element.ownerDocument.defaultView;
 
                     if (!view || !view.opener) {
                         view = window;
                     }
-                    return view.getComputedStyle(elem)[styleName];
+                    return view.getComputedStyle(element)[styleName];
                 } else {
                     return (element.style[styleName] || element.currentStyle ? element.currentStyle[styleName] : null);
                 }
