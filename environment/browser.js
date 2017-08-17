@@ -27,3 +27,6 @@ var browser = {
     }(),
     language: (navigator.browserLanguage || navigator.language).toLowerCase()
 };
+
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia
+    || navigator.mozGetUserMedia || navigator.msGetUserMedia;

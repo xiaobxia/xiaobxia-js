@@ -26,3 +26,6 @@ function windowSize(){
     };
     return obj;
 }
+
+// Normalizes window.URL
+window.URL = window.URL || window.webkitURL || window.msURL || window.oURL;
