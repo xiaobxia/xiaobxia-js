@@ -30,3 +30,8 @@ var browser = {
 
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia
     || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+
+//获取浏览器语言
+
+let language = navigator.language || navigator.browserLanguage;
+
