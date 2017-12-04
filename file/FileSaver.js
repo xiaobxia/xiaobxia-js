@@ -3,6 +3,10 @@
  * 用于导出和canvas转图片
  *
  * 具体使用file-saver模块
+ *
+ * 原理
+ * 如果是ie10+，那就使用ie自带的navigator.msSaveOrOpenBlob方法
+ * 不然就创建dataUrl，然后创建一个标签，去模拟点击这个标签，就下载了
  */
 "use strict";
 // IE <10 is explicitly unsupported
@@ -13,6 +17,7 @@ var saveAs = (function () {
         get_URL = function () {
             return window.URL || window.webkitURL || window;
         },
+        //createElementNS，创建带有命名空间的节点
         save_link = doc.createElementNS("http://www.w3.org/1999/xhtml", "a"),
         can_use_save_link = "download" in save_link,
         //点击
@@ -31,7 +36,7 @@ var saveAs = (function () {
         force_saveable_type = "application/octet-stream",
         // the Blob API is fundamentally broken as there is no "downloadfinished" event to subscribe to
         arbitrary_revoke_timeout = 1000 * 40,// in ms
-        //撤回
+        //撤回，如果超时就撤回
         revoke = function (file) {
             var revoker = function () {
                 if (typeof file === "string") { // file is an object URL
@@ -40,6 +45,7 @@ var saveAs = (function () {
                     file.remove();
                 }
             };
+            //过了超时事件就撤回
             setTimeout(revoker, arbitrary_revoke_timeout);
         },
         //执行事件
@@ -59,6 +65,7 @@ var saveAs = (function () {
                 }
             }
         },
+        //格式化blob
         auto_bom = function (blob) {
             // prepend BOM for UTF-8 XML and text/* types (including HTML)
             // note: your browser will automatically convert UTF-16 U+FEFF to EF BB BF
@@ -69,6 +76,7 @@ var saveAs = (function () {
         },
         //TODO 文件保存对象
         FileSaver = function (blob, name, no_auto_bom) {
+            //格式化blob
             if (!no_auto_bom) {
                 blob = auto_bom(blob);
             }
@@ -77,6 +85,7 @@ var saveAs = (function () {
                 type = blob.type,
                 force = type === force_saveable_type,
                 object_url,
+                //执行文件对象的几个回调
                 dispatch_all = function () {
                     dispatch(filesaver, "writestart progress write writeend".split(" "));
                 },
@@ -116,22 +125,29 @@ var saveAs = (function () {
                     dispatch_all();
                     revoke(object_url);
                 };
+            //TODO 真正开始
             filesaver.readyState = filesaver.INIT;
             //使用保存连接
             if (can_use_save_link) {
+                //创建dataUrl
                 object_url = get_URL().createObjectURL(blob);
                 //模拟点击
                 setTimeout(function () {
+                    //创建点击链接
                     save_link.href = object_url;
                     save_link.download = name;
+                    //模拟点击
                     click(save_link);
+                    //执行各个阶段的回调
                     dispatch_all();
+                    //如果超时就撤回
                     revoke(object_url);
+                    //状态修改为完成
                     filesaver.readyState = filesaver.DONE;
                 });
                 return;
             }
-
+            //如果a标签不能下载
             fs_error();
         },
         FS_proto = FileSaver.prototype,
