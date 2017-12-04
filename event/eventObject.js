@@ -1,3 +1,6 @@
+/**
+ * 事件工具
+ */
 var getEvent = function (event) {
     return event ? event : window.event;
 };

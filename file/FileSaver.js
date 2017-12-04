@@ -6,7 +6,8 @@
  *
  * 原理
  * 如果是ie10+，那就使用ie自带的navigator.msSaveOrOpenBlob方法
- * 不然就创建dataUrl，然后创建一个标签，去模拟点击这个标签，就下载了
+ * 不然就创建dataUrl，然后创建一个a标签，去模拟点击这个标签，就下载了
+ * 如果a不提供下载功能，就使用FileReader对象
  */
 "use strict";
 // IE <10 is explicitly unsupported

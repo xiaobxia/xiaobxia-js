@@ -3,7 +3,9 @@ var screen = {
         return window.devicePixelRatio > 1;
     }
 }
-
+/**
+ * 设置viewport，和根字体大小
+ */
 function setAdaptive() {
     var _baseFontSize = 10;
     //和width有关

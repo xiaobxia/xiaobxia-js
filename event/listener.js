@@ -1,3 +1,6 @@
+/**
+ * 事件监听工具
+ */
 const on = (function () {
     if (document.addEventListener) {
         return function (element, event, handler) {

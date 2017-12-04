@@ -1,6 +1,6 @@
-/*用法
-* var isIPad= browser.version.iPad;
-* */
+/**
+ * 得到浏览器的信息
+ */
 var browser = {
     version: function () {
         //得到内核
