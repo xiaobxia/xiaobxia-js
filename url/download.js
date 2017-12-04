@@ -28,3 +28,10 @@ function save(data) {
     FileSaver.saveAs(blob, fileName);
 }
 
+//可以把canvas另存为图片
+var canvas = document.getElementById("my-canvas"), ctx = canvas.getContext("2d");
+// draw to canvas...
+canvas.toBlob(function(blob) {
+    saveAs(blob, "pretty image.png");
+});
+
