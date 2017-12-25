@@ -6,20 +6,21 @@ var screen = {
 /**
  * 设置viewport，和根字体大小
  */
-function setAdaptive() {
-    var _baseFontSize = 10;
+function setAdaptive(baseFontSize, baseWidth) {
+    var _baseFontSize = baseFontSize || 10;
+    var _baseWidth = baseWidth || 375;
     //和width有关
     var winWidth = 0;
     if (window.innerWidth) {
         winWidth = window.innerWidth;
-    } else if ((document.body) && (document.body.clientWidth)){
+    } else if ((document.body) && (document.body.clientWidth)) {
         winWidth = document.body.clientWidth;
     }
     //通过深入Document内部对body进行检测，获取窗口大小
-    if(document.documentElement  && document.documentElement.clientHeight && document.documentElement.clientWidth){
+    if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
         winWidth = document.documentElement.clientWidth;
     }
-    var _fontscale = winWidth/375;
+    var _fontscale = winWidth / _baseWidth;
     var ua = navigator.userAgent;
     var matches = ua.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i);
     var UCversion = ua.match(/U3\/((\d+|\.){5,})/i);
@@ -37,7 +38,7 @@ function setAdaptive() {
         metaEl.setAttribute('name', 'viewport');
         document.head.appendChild(metaEl);
     }
-    metaEl.setAttribute('content', 'width=device-width,user-scalable=no,initial-scale='+scale+',maximum-scale='+scale+',minimum-scale='+scale);
-    document.documentElement.style.fontSize = (_baseFontSize / 2 * dpr * _fontscale)+'px';
+    metaEl.setAttribute('content', 'width=device-width,user-scalable=no,initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale);
+    document.documentElement.style.fontSize = (_baseFontSize / 2 * dpr * _fontscale) + 'px';
     document.documentElement.setAttribute('data-dpr', dpr);
 }
