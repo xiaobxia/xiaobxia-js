@@ -9,7 +9,17 @@ var screen = {
 function setAdaptive() {
     var _baseFontSize = 10;
     //和width有关
-    var _fontscale = 1;
+    var winWidth = 0;
+    if (window.innerWidth) {
+        winWidth = window.innerWidth;
+    } else if ((document.body) && (document.body.clientWidth)){
+        winWidth = document.body.clientWidth;
+    }
+    //通过深入Document内部对body进行检测，获取窗口大小
+    if(document.documentElement  && document.documentElement.clientHeight && document.documentElement.clientWidth){
+        winWidth = document.documentElement.clientWidth;
+    }
+    var _fontscale = winWidth/375;
     var ua = navigator.userAgent;
     var matches = ua.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i);
     var UCversion = ua.match(/U3\/((\d+|\.){5,})/i);
