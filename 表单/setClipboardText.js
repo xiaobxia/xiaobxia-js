@@ -4,7 +4,7 @@
 /**
  * 给复制内容添加版权信息
  */
-document.addEventListener('copy', function (event) {
+document.getElementById('text').addEventListener('copy', function (event) {
     setClipboardText(event);
 });
 
