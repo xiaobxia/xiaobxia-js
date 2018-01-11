@@ -22,26 +22,12 @@ Animal.prototype.eat = function (food) {
 function Cat(sex) {
     this.sex = sex || '男';
 }
-Cat.prototype = new Animal('Cat');
-
+//TODO Cat实例化的时候没办法向Animal传参，定义时可以
+//TODO 缺点在于Animal的实例方法到了Cat的原型中，我们希望它在Cat的实例方法中
+Cat.prototype = new Animal('Cat A');
 
 var cat = new Cat();
-
-//打印出的cat
-var catConsole = {
-    constructor: 'Cat',
-    sex: '男',
-    proto: {
-        constructor: 'Animal',
-        name: 'Cat',
-        sleep: 'fuc',
-        proto: {
-            constructor: 'Object',
-            eat: 'fuc',
-        }
-    }
-};
-
+console.log(cat);
 console.log(cat.name);
 cat.eat('fish');
 cat.sleep();
