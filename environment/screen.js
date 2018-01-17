@@ -7,7 +7,7 @@ var screen = {
  * 设置viewport，和根字体大小
  */
 function setAdaptive(baseFontSize, baseWidth) {
-    var _baseFontSize = baseFontSize || 10;
+    var _baseFontSize = baseFontSize || 20;
     var _baseWidth = baseWidth || 375;
     //和width有关
     var winWidth = 0;
