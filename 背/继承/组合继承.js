@@ -1,6 +1,7 @@
 /**
  * Created by xiaobxia on 2018/1/11.
  */
+//TODO 组合继承：构造继承和原型链继承的组合
 // 定义一个动物类
 function Animal (name) {
     // 属性

@@ -31,6 +31,7 @@ function Cat(name){
 
 // Test Code
 var cat = new Cat();
+Animal.prototype.aa = 'aa';
 console.log(cat);
 console.log(cat.name);
 console.log(cat.sleep);
