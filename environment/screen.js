@@ -7,6 +7,7 @@ var screen = {
  * 设置viewport，和根字体大小
  */
 function setAdaptive(baseFontSize, baseWidth) {
+    // 使用20更好
     var _baseFontSize = baseFontSize || 20;
     var _baseWidth = baseWidth || 375;
     //和width有关
@@ -41,4 +42,10 @@ function setAdaptive(baseFontSize, baseWidth) {
     metaEl.setAttribute('content', 'width=device-width,user-scalable=no,initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale);
     document.documentElement.style.fontSize = (_baseFontSize / 2 * dpr * _fontscale) + 'px';
     document.documentElement.setAttribute('data-dpr', dpr);
+    window.adaptive = {
+        winWidth: winWidth,
+        dpr: dpr,
+        fontSize: _baseFontSize / 2 * dpr * _fontscale,
+        baseFontSize: _baseFontSize
+    };
 }
