@@ -26,6 +26,7 @@ function requestFullScreen(elem) {
         // 在moz下，elem只能是文档
         elem.mozRequestFullScreen();
     }
+    console.log('全屏的元素', elem);
 }
 
 function exitFullScreen() {
