@@ -1,4 +1,7 @@
 /**
+ * Created by xiaobxia on 2018/1/21.
+ */
+/**
  * 可以通过判断网页的隐藏和显示，判断是否暂停视频播放
  */
 var onPageVisibilityChange = function (callback) {

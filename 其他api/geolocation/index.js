@@ -1,6 +1,7 @@
 /**
  * Created by xiaobxia on 2018/1/21.
  */
+// 获取地理位置
 navigator.geolocation.getCurrentPosition(function (position) {
     console.log(position);
 }, function (error) {
