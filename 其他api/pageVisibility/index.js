@@ -5,6 +5,7 @@
  * 可以通过判断网页的隐藏和显示，判断是否暂停视频播放
  */
 var onPageVisibilityChange = function (callback) {
+    // 也可以通过判断document.visibilityState
     var hidden, visibilityChange;
     if (typeof document.hidden !== "undefined") {
         hidden = "hidden";

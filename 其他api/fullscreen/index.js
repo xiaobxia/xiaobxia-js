@@ -1,6 +1,11 @@
 /**
- * 可以通过判断网页的隐藏和显示，判断是否暂停视频播放
+ * Created by xiaobxia on 2018/1/21.
  */
+/**
+ * 进入全屏和退出全屏，使用场景是游戏和看视频
+ * 伪类:fullscreen，可以用来设置样式
+ */
+
 function requestFullScreen(elem) {
     elem = elem || document.documentElement;
     if (elem.requestFullscreen) {
