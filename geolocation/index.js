@@ -1,3 +1,6 @@
+/**
+ * Created by xiaobxia on 2018/1/21.
+ */
 navigator.geolocation.getCurrentPosition(function (position) {
     console.log(position);
 }, function (error) {

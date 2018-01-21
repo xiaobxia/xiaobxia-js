@@ -11,6 +11,7 @@ sessionStorage.setItem("book", "Professional JavaScript");
 sessionStorage.clear();
 //遍历1
 var i, key, value;
+// 得到长度
 for (i = 0, len = sessionStorage.length; i < len; i++) {
     key = sessionStorage.key(i);
     value = sessionStorage.getItem(key);
