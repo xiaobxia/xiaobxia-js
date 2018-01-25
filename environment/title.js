@@ -1,6 +1,22 @@
 /**
  * Created by xiaobxia on 2017/12/18.
  */
+// 原生触发
+function changeTitle(title){
+    var body = document.getElementsByTagName('body')[0];
+    document.title = title;
+    var iframe = document.createElement("iframe");
+    iframe.setAttribute("src", "/favicon.ico");
+
+    iframe.addEventListener('load', function() {
+        setTimeout(function() {
+            iframe.removeEventListener('load');
+            document.body.removeChild(iframe);
+        }, 0);
+    });
+    document.body.appendChild(iframe);
+}
+
 //修改title
 //基于jQuery或Zepto
 function change_title(title){
@@ -17,23 +33,6 @@ function change_title(title){
 $('#demo1').on('click', function(){
     change_title('demo1 title');
 });
-
-
-// 原生触发
-function changeTitle(title){
-    var body = document.getElementsByTagName('body')[0];
-    document.title = title;
-    var iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "/favicon.ico");
-
-    iframe.addEventListener('load', function() {
-        setTimeout(function() {
-            iframe.removeEventListener('load');
-            document.body.removeChild(iframe);
-        }, 0);
-    });
-    document.body.appendChild(iframe);
-}
 
 document.getElementById('demo2').ontouchend = function(){
     changeTitle('demo2 title');
