@@ -1,7 +1,7 @@
 /**
  * Created by xiaobxia on 2017/7/7.
  */
-//一个有
+//获取滚动条的大小
 function scrollSize() {
     var outer = document.createElement('div');
     outer.className = 'el-scrollbar__wrap';

@@ -1,40 +1,35 @@
-function Animal (name) {
-    // 属性
-    this.name = name || 'Animal';
-    // 实例方法
-    this.sleep = function(){
-        console.log(this.name + '正在睡觉！');
-    }
-}
-// 原型方法
-Animal.prototype.eat = function(food) {
-    console.log(this.name + '正在吃：' + food);
-};
-
-console.log(new Animal())
-
-function Cat(name){
-    // 执行了Animal的构造方法
-    Animal.call(this);
-    this.name = name || 'Tom';
-}
-(function(){
-    // 创建一个没有实例方法的类
-    var Super = function(){};
-    Super.prototype = Animal.prototype;
-    //将实例作为子类的原型
-    console.log(new Super())
-    //TODO cat的原型应该是Animal，而super是没有实例方法的Animal
-    //TODO 相较于组合继承，减少了开销
-    Cat.prototype = new Super();
-})();
-
-// Test Code
-var cat = new Cat();
-Animal.prototype.aa = 'aa';
-console.log(cat);
-console.log(cat.name);
-console.log(cat.sleep);
-console.log(cat instanceof Animal); // true
-//TODO 首先因为是new Cat,所以一定是Cat的实例
-console.log(cat instanceof Cat); //true
+$(window).on('click', function (event) {
+    var getButton = function (event) {
+        if (document.implementation.hasFeature("MouseEvents", "2.0")) {
+            return event.button;
+        } else {
+            switch (event.button) {
+                case 0:
+                    console.log('没有被按下');
+                    break;
+                case 1:
+                    console.log('左键被按下');
+                    break;
+                case 2:
+                    console.log('右键被按下');
+                    break;
+                case 3:
+                    console.log('左键右键同时按下');
+                    break;
+                case 4:
+                    console.log('中间键被按下');
+                    break;
+                case 5:
+                    console.log('左键和中间键被按下');
+                    break;
+                case 6:
+                    console.log('右键和中间键被按下');
+                    break;
+                case 7:
+                    console.log('三个键同时按下');
+                    break;
+            }
+        }
+    };
+    getButton(event);
+});
