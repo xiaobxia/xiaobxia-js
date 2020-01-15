@@ -3,11 +3,8 @@
  */
 // 原生触发
 function changeTitle(title){
-    var body = document.getElementsByTagName('body')[0];
     document.title = title;
     var iframe = document.createElement("iframe");
-    iframe.setAttribute("src", "/favicon.ico");
-
     iframe.addEventListener('load', function() {
         setTimeout(function() {
             iframe.removeEventListener('load');
